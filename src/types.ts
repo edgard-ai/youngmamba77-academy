@@ -36,6 +36,10 @@ export interface Lesson {
   emoji: string
   category: string
   explanation: string
+  coachingPoints: string[]
+  commonMistakes: string[]
+  videoUrl: string
+  videoTitle: string
   highlightAssignment: string
   drills: Drill[]
   quiz: {
