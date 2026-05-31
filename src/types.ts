@@ -35,6 +35,7 @@ export interface Lesson {
   title: string
   emoji: string
   category: string
+  track: 1 | 2 | 3 | 4 | 5
   explanation: string
   coachingPoints: string[]
   commonMistakes: string[]
@@ -47,6 +48,16 @@ export interface Lesson {
     options: QuizOption[]
   }
   xpReward: number
+}
+
+export interface CurriculumTrack {
+  id: 1 | 2 | 3 | 4 | 5
+  name: string
+  emoji: string
+  subtitle: string
+  color: string
+  unlockRequirement: number
+  description: string
 }
 
 export interface DailyTrainingDay {

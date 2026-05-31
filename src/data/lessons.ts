@@ -6,6 +6,7 @@ export const LESSONS: Lesson[] = [
     title: 'Rules of Basketball',
     emoji: '📋',
     category: 'Basics',
+    track: 1,
     explanation: `Basketball is played between two teams of 5 players each. The goal is to score more points than the other team before time runs out.
 
 How scoring works: A basket inside the 3-point arc is worth 2 points. A basket from behind the 3-point arc is worth 3 points. Free throws (awarded after fouls) are worth 1 point each.
@@ -65,6 +66,7 @@ Game structure: NBA: 4 quarters of 12 minutes. Youth games vary — know your le
     title: 'Basketball Positions',
     emoji: '🗺️',
     category: 'Basics',
+    track: 1,
     explanation: `Each position has a primary role — but elite players do multiple things. Here is what each position is responsible for:
 
 Point Guard (PG) — The Floor General: Handles the ball most. Runs the offense, calls plays, sets up teammates. Best passers and ball-handlers on the team. They read the defense before anyone else touches the ball. Think Steph Curry, Chris Paul, Magic Johnson.
@@ -126,6 +128,7 @@ Why YOU play SG/SF: These positions require athleticism, versatility, and skill.
     title: 'Court Spacing',
     emoji: '📐',
     category: 'IQ & Strategy',
+    track: 1,
     explanation: `Spacing is the foundation of modern basketball offense. When your team is properly spread across the court, each defender must cover too much ground — that creates open shots and driving lanes.
 
 The 5-out spacing: Two players in the corners, two on the wings, one at the top of the key. This stretches the defense to the edges and opens the paint for drives. When the ball-handler drives, the four other players must stay wide and ready to shoot the kick-out pass.
@@ -185,6 +188,7 @@ Corner threes: The corner 3-pointer is the most valuable shot in basketball — 
     title: 'Triple Threat Position',
     emoji: '⚡',
     category: 'Fundamentals',
+    track: 1,
     explanation: `Triple threat is the most important offensive position in basketball. When you catch the ball before you dribble, you are in triple threat — and you have three equal options: shoot, pass, or drive.
 
 The position mechanics: Feet slightly wider than shoulder-width apart. Knees deeply bent — this is your power source. Weight on the balls of your feet, not your heels. Ball held at your hip on your shooting side, about waist height. Both hands on the ball. Eyes up, reading the defense.
@@ -244,6 +248,7 @@ Progression: Triple threat → read defender → jab step → react to what they
     title: 'Dribbling Fundamentals',
     emoji: '🤜',
     category: 'Fundamentals',
+    track: 1,
     explanation: `Dribbling is controlled ball movement — not just bouncing. Elite ball-handlers use the dribble as a weapon, not just transportation.
 
 Hand mechanics: Use your FINGERTIPS, not your palm. Spread your fingers wide — more surface contact means more control. Your wrist snaps down to push the ball and snaps back up to guide it. Never slap the ball — feel it through your fingertips on every single bounce.
@@ -305,6 +310,7 @@ Speed vs. control: Control comes first, speed comes automatically. If you are lo
     title: 'Passing Fundamentals',
     emoji: '➡️',
     category: 'Fundamentals',
+    track: 1,
     explanation: `Passing is the fastest way to move the ball and the fastest way to score. A great pass beats any defender because the ball travels faster than any player can run.
 
 The three fundamental passes:
@@ -366,6 +372,7 @@ When NOT to pass: Do not force a pass into traffic. A turnover is worse than a b
     title: 'Shooting Form',
     emoji: '🎯',
     category: 'Fundamentals',
+    track: 1,
     explanation: `Shooting is a skill built through thousands of CORRECT repetitions. One bad habit repeated 10,000 times is harder to fix than starting with zero. Here are the full mechanics.
 
 BEEF — the foundation:
@@ -429,6 +436,7 @@ Shot arc: Aim for a 45-degree arc minimum. Flat shots hit the front of the rim. 
     title: 'Layups',
     emoji: '🏃',
     category: 'Fundamentals',
+    track: 1,
     explanation: `The layup is the closest and most efficient shot in basketball. A missed layup is the most costly mistake you can make — you had a near-certain 2 points and gave it away.
 
 Right-hand layup — step by step:
@@ -496,6 +504,7 @@ Common layup upgrades: Euro step (two-step move under a defender), floater (high
     title: 'Defensive Stance',
     emoji: '🛡️',
     category: 'Defense',
+    track: 1,
     explanation: `Defense is a choice. Offense requires talent — defense requires will. The player who chooses to defend wins more than the player who is only skilled.
 
 The defensive stance — full mechanics: Feet wider than shoulder-width (wider than your offensive stance). Knees deeply bent — get LOW. Your hip crease should be below your knees. Back flat and chest up so you can see the whole court. Weight on the BALLS of your feet — not your heels. Heels mean you are slow to react. Arms out to the sides, palms up — one hand in the passing lane, one hand low near the dribble. Eyes on the offensive player's chest — the ball moves faster than feet, but the chest never fakes.
@@ -555,6 +564,7 @@ The stance is exhausting: Great defenders are in better shape than their opponen
     title: 'Rebounding',
     emoji: '💪',
     category: 'Fundamentals',
+    track: 1,
     explanation: `Every rebound your team gets is one fewer offensive possession for the opponent. Controlling the boards directly controls the game's tempo and final score.
 
 Box out — the fundamental: When a shot goes up, your FIRST move is to find your man and get between them and the basket. Step into them with your back, make contact, and create a wall. Feet wide, knees bent, elbows out. You do not jump yet — you hold position until you know where the ball is going.
@@ -616,6 +626,7 @@ The mental game: Every rebound is a 50/50 ball. The player who WANTS it more win
     title: 'Cutting to Get Open',
     emoji: '✂️',
     category: 'IQ & Strategy',
+    track: 1,
     explanation: `Cutting is how you score WITHOUT dribbling. The best off-ball scorers in basketball history got most of their baskets from intelligent cuts, not individual dribble moves.
 
 The V-Cut — your most used cut:
@@ -686,6 +697,7 @@ Timing your cut: Cut when your teammate is about to make a decision — as they 
     title: 'Fast Breaks',
     emoji: '⚡',
     category: 'IQ & Strategy',
+    track: 1,
     explanation: `The fast break is the highest-efficiency play in basketball — more players than defenders means mathematically better shots. But most players waste fast breaks by over-dribbling or making the wrong decision.
 
 Push immediately: The fast break starts the MOMENT your team gets the ball — rebound, steal, or made basket. The outlet pass must happen within 1-2 seconds. Every second of delay gives the defense time to sprint back.
@@ -747,6 +759,7 @@ Sprint back on defense: The moment your fast break possession ends — make or m
     title: 'Basketball IQ',
     emoji: '🧠',
     category: 'IQ & Strategy',
+    track: 1,
     explanation: `Basketball IQ is the ability to make the right decision faster than anyone else on the court. It cannot be measured in athleticism — it is built through watching, studying, and playing with intention every day.
 
 The four pillars of high basketball IQ:
@@ -810,6 +823,7 @@ IQ vs. Athleticism: A high-IQ player with average athleticism beats a low-IQ pla
     title: 'Teamwork & Leadership',
     emoji: '🤝',
     category: 'Mindset',
+    track: 1,
     explanation: `Every championship team in history won because of teamwork — not because of the best individual player. Michael Jordan did not win until Scottie Pippen made the team better. LeBron James built multiple dynasties by raising his teammates' level of play.
 
 What teamwork actually looks like on the court:
@@ -873,6 +887,7 @@ Sacrifice for the team: Sometimes the right play hurts your individual statistic
     title: 'Study the Game Like a Pro',
     emoji: '🎬',
     category: 'Mindset',
+    track: 1,
     explanation: `Kobe Bryant woke up at 4 AM to watch film. LeBron James has a full film room in his house. The players who study the game the most become the smartest players — and smart players get more playing time, make better decisions, and have longer careers.
 
 How to watch film with purpose:
