@@ -88,7 +88,18 @@ export function useGameProgress() {
       yesterday.setDate(yesterday.getDate() - 1)
       const yesterdayStr = yesterday.toISOString().split('T')[0]
 
-      const newStreak = p.lastTrainingDate === yesterdayStr ? p.streak + 1 : 1
+      const twoDaysAgo = new Date(today)
+      twoDaysAgo.setDate(twoDaysAgo.getDate() - 2)
+      const twoDaysAgoStr = twoDaysAgo.toISOString().split('T')[0]
+      const thisMonth = today.slice(0, 7)
+      const graceDayUsedThisMonth = p.lastTrainingDate.slice(0, 7) === thisMonth &&
+        p.lastTrainingDate !== yesterdayStr && p.lastTrainingDate === twoDaysAgoStr
+
+      const newStreak = p.lastTrainingDate === yesterdayStr
+        ? p.streak + 1
+        : graceDayUsedThisMonth
+        ? p.streak + 1
+        : 1
 
       return {
         ...p,

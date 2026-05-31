@@ -6,6 +6,21 @@ interface Props {
   progress: GameProgress
 }
 
+function getBadgeProgress(id: string, progress: GameProgress): { current: number; target: number } {
+  switch (id) {
+    case 'first-practice': return { current: progress.completedDays.length, target: 1 }
+    case 'seven-day-streak': return { current: progress.streak, target: 7 }
+    case 'handles-hero': return { current: progress.drillCounts['ball-handling'] || 0, target: 5 }
+    case 'splash-shooter': return { current: progress.drillCounts['shooting'] || 0, target: 5 }
+    case 'lockdown-defender': return { current: progress.drillCounts['footwork'] || 0, target: 5 }
+    case 'young-mamba-mindset': return { current: progress.journalEntries.length, target: 7 }
+    case 'capi-capi-captain': return { current: progress.pregameCompletions, target: 5 }
+    case 'school-scholar': return { current: progress.completedLessons.length, target: 5 }
+    case 'legend-77': return { current: progress.xp, target: 1500 }
+    default: return { current: 0, target: 1 }
+  }
+}
+
 export default function BadgeCollection({ progress }: Props) {
   const currentLevel = getLevel(progress.xp)
 
@@ -19,16 +34,13 @@ export default function BadgeCollection({ progress }: Props) {
         </p>
       </div>
 
-      {/* Level Progress */}
+      {/* Level Path */}
       <div className="px-4 mb-4">
         <p className="text-gray-400 text-xs uppercase tracking-wider mb-2">Level Path</p>
         <div className="bg-court-mid border border-gray-800 rounded-2xl p-4">
           <div className="flex justify-between mb-3">
             {LEVELS.map((lvl, i) => (
-              <div
-                key={lvl.name}
-                className={`flex flex-col items-center flex-1 ${i <= currentLevel.index ? lvl.color : 'text-gray-700'}`}
-              >
+              <div key={lvl.name} className={`flex flex-col items-center flex-1 ${i <= currentLevel.index ? lvl.color : 'text-gray-700'}`}>
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-black border-2 ${
                   i < currentLevel.index ? 'border-current bg-current/20' :
                   i === currentLevel.index ? 'border-current bg-current/30 ring-2 ring-current ring-offset-1 ring-offset-court-mid' :
@@ -36,9 +48,6 @@ export default function BadgeCollection({ progress }: Props) {
                 }`}>
                   {i < currentLevel.index ? '✓' : i + 1}
                 </div>
-                <span className="text-xs mt-1 text-center leading-tight hidden sm:block">
-                  {lvl.name.split(' ')[0]}
-                </span>
               </div>
             ))}
           </div>
@@ -49,32 +58,42 @@ export default function BadgeCollection({ progress }: Props) {
         </div>
       </div>
 
-      {/* Badges */}
+      {/* Badges with progress bars */}
       <div className="px-4">
         <p className="text-gray-400 text-xs uppercase tracking-wider mb-2">Badges</p>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="space-y-3">
           {BADGES.map(badge => {
             const earned = progress.unlockedBadges.includes(badge.id)
+            const { current, target } = getBadgeProgress(badge.id, progress)
+            const pct = Math.min(100, Math.round((current / target) * 100))
+
             return (
-              <div
-                key={badge.id}
-                className={`rounded-2xl p-4 border transition-all ${
-                  earned
-                    ? 'bg-gradient-to-br from-yellow-900/50 to-yellow-800/20 border-gold shadow-gold'
-                    : 'bg-court-mid border-gray-800 opacity-50'
-                }`}
-              >
-                <div className="text-3xl mb-2">
-                  {earned ? badge.emoji : '🔒'}
+              <div key={badge.id} className={`rounded-2xl p-4 border transition-all ${
+                earned
+                  ? 'bg-gradient-to-r from-yellow-900/40 to-yellow-800/20 border-gold shadow-gold'
+                  : 'bg-court-mid border-gray-800'
+              }`}>
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-3xl">{earned ? badge.emoji : '🔒'}</span>
+                  <div className="flex-1">
+                    <div className="flex justify-between items-center">
+                      <p className={`font-black text-sm ${earned ? 'text-gold' : 'text-gray-400'}`}>
+                        {badge.name}
+                      </p>
+                      <p className={`text-xs font-bold ${earned ? 'text-gold' : 'text-gray-500'}`}>
+                        {earned ? `+${badge.xpReward} XP ✓` : `${current}/${target}`}
+                      </p>
+                    </div>
+                    <p className="text-xs text-gray-500">{badge.unlockCondition}</p>
+                  </div>
                 </div>
-                <p className={`font-black text-sm ${earned ? 'text-gold' : 'text-gray-500'}`}>
-                  {badge.name}
-                </p>
-                <p className="text-xs text-gray-400 mt-0.5">
-                  {badge.unlockCondition}
-                </p>
-                {earned && (
-                  <p className="text-xs text-gold/70 mt-1">+{badge.xpReward} XP earned</p>
+                {!earned && (
+                  <div className="w-full bg-gray-800 rounded-full h-2">
+                    <div
+                      className={`rounded-full h-2 transition-all ${pct >= 75 ? 'bg-gold' : pct >= 40 ? 'bg-blue-500' : 'bg-gray-600'}`}
+                      style={{ width: `${pct}%` }}
+                    />
+                  </div>
                 )}
               </div>
             )

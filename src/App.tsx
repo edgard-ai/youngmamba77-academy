@@ -54,6 +54,7 @@ export default function App() {
             onRecordDrill={recordDrillType}
             onJournal={addJournalEntry}
             onAddXP={addXP}
+            onNav={(v) => setView(v as View)}
           />
         )
       case 'school':
