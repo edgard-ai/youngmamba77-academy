@@ -11,6 +11,7 @@ const DEFAULT_PROGRESS: GameProgress = {
   completedDays: [],
   unlockedBadges: [],
   completedLessons: [],
+  completedChapters: [],
   drillCounts: {},
   journalEntries: [],
   pregameCompletions: 0,
@@ -30,9 +31,7 @@ function loadProgress(): GameProgress {
 function saveProgress(p: GameProgress) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(p))
-  } catch {
-    // storage full — ignore
-  }
+  } catch {}
 }
 
 function checkBadges(progress: GameProgress): { updated: GameProgress; newBadges: string[] } {
@@ -121,11 +120,14 @@ export function useGameProgress() {
   const completeLesson = useCallback((lessonId: string, xpReward: number) => {
     update(p => {
       if (p.completedLessons.includes(lessonId)) return p
-      return {
-        ...p,
-        completedLessons: [...p.completedLessons, lessonId],
-        xp: p.xp + xpReward,
-      }
+      return { ...p, completedLessons: [...p.completedLessons, lessonId], xp: p.xp + xpReward }
+    })
+  }, [update])
+
+  const completeChapter = useCallback((chapterKey: string) => {
+    update(p => {
+      if (p.completedChapters.includes(chapterKey)) return p
+      return { ...p, completedChapters: [...p.completedChapters, chapterKey], xp: p.xp + 10 }
     })
   }, [update])
 
@@ -138,11 +140,7 @@ export function useGameProgress() {
   }, [update])
 
   const completePregame = useCallback(() => {
-    update(p => ({
-      ...p,
-      pregameCompletions: p.pregameCompletions + 1,
-      xp: p.xp + 20,
-    }))
+    update(p => ({ ...p, pregameCompletions: p.pregameCompletions + 1, xp: p.xp + 20 }))
   }, [update])
 
   const updateParentNotes = useCallback((notes: string) => {
@@ -163,6 +161,7 @@ export function useGameProgress() {
     completeTrainingDay,
     recordDrillType,
     completeLesson,
+    completeChapter,
     addJournalEntry,
     completePregame,
     updateParentNotes,

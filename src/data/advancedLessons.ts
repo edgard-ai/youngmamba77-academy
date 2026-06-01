@@ -10,59 +10,40 @@ export const ADVANCED_LESSONS: Lesson[] = [
     emoji: '🔄',
     category: 'Advanced Offense',
     track: 2,
-    explanation: `The pick and roll (also called the "ball screen") is the single most run play in the history of basketball at every level. It is two players creating a math problem for the defense that has no perfect answer.
-
-How it works: The ball handler dribbles toward a stationary teammate (the screener). The screener plants their feet wide, makes contact with the defender, and creates a wall. The ball handler uses that wall to get past their defender. After setting the screen, the screener immediately "rolls" to the basket (or "pops" to the perimeter for a shot).
-
-The four defensive coverages and how to attack them:
-
-1. Hard hedge (big steps up aggressively): The screener's defender shoots out to stop the ball handler at the top. Read: quickly pass to the rolling screener who now has a clear path to the basket. The screener's defender is out of position.
-
-2. Drop coverage (big drops back to protect the rim): Your defender goes under the screen and the big stays home. Read: come off the screen and pull up immediately for a mid-range jumper or 3. The defense gave you the shot — take it.
-
-3. Switch (defenders swap assignments): Your defender now has the big guarding you, and their defender has the ball. Read: immediately attack the mis-match. Drive the big, or post them up.
-
-4. Blitz/trap (two defenders both crowd the ball handler): Read: the roller is wide open AND one of your four other teammates is also open. Find the open man immediately — this is a 5-on-3 advantage if you make the right pass.
-
-The ball handler's job: Read the coverage BEFORE the screen comes. Know where you are going based on what the defense is showing. Hesitate at the screen to let the screener make contact (do not run past the screen too fast), then attack the advantage.
-
-The screener's job: Set a legal screen (stationary feet, vertical body — no leaning). Make hard contact with your BODY, not your arms. Roll with purpose — sprint to the basket with your hands up ready to catch. If the defense switches, post up immediately.`,
-    coachingPoints: [
-      'Read the defense BEFORE the screen arrives — your decision should already be made when you come off it',
-      'The best pick and roll players have at least two reads automatic: roll pass and pull-up jumper',
-      'As the screener, make contact with your shoulder and hip — the more contact, the better the screen',
-      'John Stockton and Karl Malone ran it 10 times per game because they had every read automatic',
-    ],
-    commonMistakes: [
-      'Running past the screen too fast — the screen only creates an advantage if you use it. Rub your defender off',
-      'Screener rolling before making full contact — a moving screen is a turnover',
-      'Forcing the roll pass when the defense is taking it away — read what they give and take it',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=pick+and+roll+basketball+tutorial+reads',
-    videoTitle: 'Pick and Roll Reads Tutorial',
-    highlightAssignment: 'Watch any Jazz-era Stockton and Malone highlights. Count how many times they run the exact same pick and roll — but each time, Stockton makes a different read based on the defense. Same play, different decision, always the right one.',
-    drills: [
+    tagline: 'The most-run play in basketball history',
+    chapters: [
       {
-        id: 'pnr-d1', name: 'Two-Man Pick and Roll Reads', duration: '8 min',
-        instructions: 'With a partner: set pick and roll 20 times. Defense calls out coverage each time (hedge, drop, switch, trap). Ball handler reads and makes the correct play: hedge → roll pass, drop → pull-up, switch → attack mismatch, trap → kick out. Read and react every rep.',
-        type: 'ball-handling',
+        title: 'How the Pick and Roll Works',
+        content: `The pick and roll — also called the "ball screen" — is the single most-run play in the history of basketball at every level, from youth leagues to the NBA Finals. It is a two-player action that creates a mathematical problem for the defense: one screen, four possible defensive responses, and a correct offensive read for each one.
+
+The mechanics: The ball handler dribbles toward a stationary teammate (the screener). The screener plants their feet wide, makes solid body contact with the ball handler's defender, and creates a wall. The ball handler "comes off" the screen — rubbing their shoulder against the screener's body to maximize the separation created. After setting the screen, the screener immediately "rolls" toward the basket with their hands up ready to catch (or "pops" to the perimeter if they are a 3-point shooter).
+
+Why it creates an unsolvable problem: The screen creates a situation where the screener's defender must decide in a fraction of a second: do I stay with my player (the screener) and let the ball handler run free, or do I step out to slow the ball handler and leave the screener open? There is no defensive choice that covers both players simultaneously. This is why every NBA team runs pick-and-roll actions dozens of times per game.
+
+The screener's responsibility: Set the screen on the ball handler's DEFENDER — not the ball handler. Your shoulder should make contact with the center of the defender's body. Feet wider than shoulder-width. Body completely vertical — no leaning. Once you make contact, explode into the roll immediately. Sprint toward the basket with your hands up. If you roll slowly or casually, the defense has time to recover.
+
+The ball handler's responsibility: Time your approach so you arrive at the screen when the screener is fully set. "Rub" the screen — stay as close to the screener's body as possible so the defender cannot squeeze through the gap between you and the screen. Then read the coverage and make the correct decision.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=pick+and+roll+basketball+reads+tutorial',
+        videoTitle: 'Pick and Roll Reads Tutorial',
       },
       {
-        id: 'pnr-d2', name: 'Screen Setting Quality', duration: '5 min',
-        instructions: 'Practice setting screens on a stationary object (chair). Your body must make contact on every screen. Wide feet, vertical body. Set 15 screens on the chair — your position must be perfect each time. Weak screens help nobody.',
-        type: 'footwork',
-      },
-      {
-        id: 'pnr-d3', name: 'Pull-Up Jumper Off Screen', duration: '5 min',
-        instructions: 'Dribble toward a stationary chair (screen). Come off it tightly (rub the chair), take one gather step, and pull up for a jumper from 15-17 feet. The chair represents the hedge defender — you are practicing the "drop coverage" read. 15 makes.',
-        type: 'shooting',
+        title: 'Reading All Four Defensive Coverages',
+        content: `Every defensive coverage on the pick and roll has a specific correct read. This is what Stockton and Malone meant when coaches said they "ran the same play a thousand times" — the play was the same, but the read was different every time based on how the defense lined up.
+
+Coverage 1 — Hard Hedge (Big Steps Out Aggressively): The screener's defender jumps out above the screen to cut off the ball handler's path. This is the most common coverage in modern basketball. Your read: the rolling screener's defender has just left their player. Pass immediately to the rolling screener who has a clear path to the basket. The timing must be crisp — pass it before the hedging defender can recover.
+
+Coverage 2 — Drop Coverage (Big Drops to Protect the Rim): The screener's defender drops back, protecting the basket, while the ball handler's defender fights through the screen. Your read: they are giving you the mid-range or 3-point jumper. Come off the screen and immediately pull up for the open shot at the free throw line or beyond. This is why great pick-and-roll ball handlers are also great pull-up shooters — the open pull-up is the counter.
+
+Coverage 3 — Switch (Defenders Trade Assignments): Both defenders call "switch!" and trade their assignments. Your read: you now have the screener's defender on you (typically a larger, slower player). Attack this mismatch aggressively — drive the big, post them up, or isolate and score. Alternatively, call a post-up for the screener who now has the ball handler's defender (a smaller, slower player in the post).
+
+Coverage 4 — Blitz/Trap (Both Defenders Crowd the Ball Handler): The most extreme coverage. Two defenders collapse on the ball handler. Your read: one of your teammates is wide open. Your job is to find them before the trap tightens. Usually, it is the screener rolling to the basket or a player who has relocated. This is a 5-on-3 situation if you make the right decision — do not waste it by hesitating or panicking.`,
       },
     ],
     quiz: {
       question: 'When the defense "hedges" hard on a pick and roll, what is the correct read?',
       options: [
         { text: 'Drive hard past the hedging defender', correct: false },
-        { text: 'Pull up for a mid-range jumper immediately', correct: false },
+        { text: 'Pull up for a mid-range immediately', correct: false },
         { text: 'Pass to the rolling screener who is now open at the basket', correct: true },
         { text: 'Reset and run the play again', correct: false },
       ],
@@ -76,57 +57,40 @@ The screener's job: Set a legal screen (stationary feet, vertical body — no le
     emoji: '🦶',
     category: 'Advanced Offense',
     track: 2,
-    explanation: `Post moves are the most technical skill set in basketball — and the most valuable in a youth game where size creates mismatches. Even as an SG/SF, learning post footwork makes you unstoppable when a smaller player guards you.
-
-Catch and read: When you receive the ball in the post, do not rush. Feel the defender's pressure. They are telling you what move to make. If they are on your right — go left. If they push you baseline — take the middle. The defense reveals the move.
-
-The Drop Step: Catch on the right block. Defender pushes you toward baseline. Plant your left foot, drop your right foot behind the defender (step through them), and score with a power move. The "drop step" gets you completely free for an uncontested finish.
-
-The Up-and-Under: Fake the drop step. The defender jumps. Step through in the opposite direction for a scoop or short pull-up. This counter works ONLY when the drop step is established. Set up your counters with your primary moves first.
-
-The Spin Move: Dribble into the post. Plant your pivot foot, spin 180 degrees away from the defender's reach hand, and finish before they can recover. The spin must be tight and low — wide spins lose the ball.
-
-The Face-Up: Catch in the post, turn to face the basket (pivot either direction to face up), and attack from triple threat from close range. Faster defenders cannot guard you inside — use your size. Post up, face up, attack.
-
-Hakeem Olajuwon's Dream Shake: The greatest post player ever used a series of pump fakes and pivots to completely freeze defenders before making his final move. The principle: every fake must be 100% real or the defender does not bite. Sell every fake with your full body.`,
-    coachingPoints: [
-      'Read the defender\'s pressure before you move — they are always telling you which direction to go',
-      'Every post move needs a counter — the drop step sets up the up-and-under, the up-and-under sets up the drop step',
-      'Power through contact in the post — take the foul or finish through it. Both outcomes win for you',
-      'Establish your post position BEFORE the ball arrives — catching outside your spot means you start weak',
-    ],
-    commonMistakes: [
-      'Rushing the first move — patience in the post creates better opportunities than attacking immediately',
-      'Not having a counter — if the defense figures out your primary move, you need the counter ready',
-      'Losing your pivot foot — once your pivot foot moves, you must shoot or pass immediately',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=hakeem+olajuwon+post+moves+tutorial',
-    videoTitle: 'Post Move Footwork Tutorial',
-    highlightAssignment: 'Watch "Hakeem Olajuwon Dream Shake tutorial" on YouTube. Study how every single fake is committed — full extension, full sell — before the actual move. The defense must believe every fake or none of them work.',
-    drills: [
+    tagline: 'Inside power that cannot be stopped',
+    chapters: [
       {
-        id: 'post-d1', name: 'Drop Step Both Sides', duration: '6 min',
-        instructions: 'Catch on the right block. Drop step baseline: plant left foot, step through with right, power finish. Then from the left block: plant right, step with left, finish. 10 drop steps each side. Every rep must be powerful — this is a contact move.',
-        type: 'footwork',
+        title: 'The Art of the Post Game',
+        content: `Post moves are the most technically demanding skill set in basketball — and the most valuable in youth and high school basketball where physical mismatches are common. As an SG/SF, developing post skills means that when a smaller player guards you, you can post them up and score automatically. It also means that as you grow, your game expands downward while maintaining your perimeter skills.
+
+Establishing post position: Before the ball arrives, you must establish where you want to catch it. Plant your inside foot on or near the block. Use your back to feel where the defender is and make yourself as wide as possible. Get your hands up as a target — show the passer where to throw. A player who catches the ball in the wrong spot — too far from the basket, too close to the help defense, out of their ideal shooting or finishing range — starts the possession already compromised.
+
+Reading the defender: The moment the ball is in your hands, stop. Do not immediately attack. Take one second to feel exactly where the defender's pressure is coming from. This is not hesitation — this is intelligence. The pressure tells you where to go. Defender pushing you baseline? Take the baseline. Defender pressing you toward the middle? Take the middle. Defender directly behind you? Drop step in either direction. The defense is always revealing the correct move. Your job is to read it.
+
+The physical positioning battle: Post play is physical. Defenders will push, hold, bump, and grab to try to move you off your spot. You must hold your ground with wide feet, low hips, and a strong base. Use your body — legally — to shield the ball. You will get bumped every possession. The ones who succeed are the ones who do not move their pivot foot and do not panic under physical contact.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=hakeem+olajuwon+post+moves+tutorial+dream+shake',
+        videoTitle: 'Post Move Footwork Tutorial',
       },
       {
-        id: 'post-d2', name: 'Up-and-Under Series', duration: '5 min',
-        instructions: 'From the block: fake the drop step (complete selling the move), hold until the "defender" reacts, step through the other direction and finish with a scoop or short pull-up. The fake must be completely committed or the counter will not work. 10 reps each side.',
-        type: 'shooting',
-      },
-      {
-        id: 'post-d3', name: 'Face-Up From Close Range', duration: '4 min',
-        instructions: 'Catch at the mid-post (free throw line area). Pivot to face the basket in triple threat. You are now an elite scorer in close range — attack the basket, pump fake and draw contact, or step back and shoot. 15 face-up possessions.',
-        type: 'shooting',
+        title: 'The Essential Post Moves',
+        content: `Every post player needs a primary move, a counter to the primary, and a face-up option. These three tools cover every defensive scenario and make you unpredictable.
+
+The Drop Step — Primary Move: Catch on the right block with the defender behind you. They are leaning or pushing you toward the baseline. Plant your left foot (the inside foot), swing your right foot behind the defender (the "drop step"), and power toward the basket with the defender on your back. This is a pure power move — you are stepping THROUGH the defender's defensive position with your body shielding the ball.
+
+The Up-and-Under — Primary Counter: This works ONLY when the drop step is established. Fake the drop step completely — committed, full-speed. The defender bites and jumps over your back. Step THROUGH in the opposite direction while they are in the air and finish with a soft scoop or short pull-up. The counter cannot exist without the primary — you must show the drop step first.
+
+The Face-Up — Versatility Move: Catch in the mid-post or high post. Pivot to face the basket (in either direction — choose based on where the defender's foot is). Now you are in triple threat from 10-15 feet, and you have size on the defender. Read: if they step back, shoot. If they crowd, drive. If they overplay one direction, go the other. The face-up game is where your perimeter skills and post positioning combine — it is your most dangerous position as an SG/SF because most defenses are not prepared for it.
+
+Hakeem Olajuwon's Dream Shake: The greatest post player in history used a series of pump fakes, pivots, and directional changes to completely freeze defenders. His principle: every single fake must be a REAL fake — 100% committed, no hesitation, no "half-fake." A real fake freezes the defender. A half-fake does nothing. Build your fakes the same way you build your real moves: with complete commitment to each one.`,
       },
     ],
     quiz: {
       question: 'In the post, if the defender is pushing you toward the baseline, what is the correct move?',
       options: [
-        { text: 'Push back toward the middle forcefully', correct: false },
+        { text: 'Push back toward the middle', correct: false },
         { text: 'Take the baseline direction they are giving you with a drop step', correct: true },
         { text: 'Always spin to the middle regardless of pressure', correct: false },
-        { text: 'Immediately pass out of the post', correct: false },
+        { text: 'Pass out of the post immediately', correct: false },
       ],
     },
     xpReward: 60,
@@ -138,46 +102,33 @@ Hakeem Olajuwon's Dream Shake: The greatest post player ever used a series of pu
     emoji: '💫',
     category: 'Advanced Offense',
     track: 2,
-    explanation: `Shot creation is the ability to manufacture a high-quality shot against a set defense without help from a play or a screen. It is what separates good scorers from elite scorers.
-
-The step-back: The most dangerous move in modern basketball. Drive at the defender, plant your lead foot, push off explosively backward (2 steps back), and rise up for a jumper before the defender can recover. The key is the plant and explosion — it must happen fast enough that the defender's momentum carries them forward while you step back. James Harden, Luka Doncic, and Kevin Durant built entire careers around this move.
-
-The Euro step: Instead of going straight at the basket, plant one foot and step laterally in a new direction before finishing. The Euro step exploits the defender's momentum — they go one way, you finish the other. Two legal steps, two directions. Manu Ginobili made it famous in the NBA; now every elite guard uses it.
-
-The floater: When a shot-blocking big is protecting the rim, the floater goes OVER them before they can jump. Explode toward the basket, plant your inside foot 5-8 feet from the rim, and push the ball high into the air with your shooting hand in a scooping motion. The ball floats softly over the defender and into the basket. Tony Parker's floater was virtually unblockable because he released it before the shot-blocker could time the jump.
-
-Pull-up jumper off the dribble: Stop on a dime (1-2 step stop from a full dribble), catch your balance, and shoot. The footwork of stopping is the skill — if your feet are wrong, the shot is wrong. Practice the stop separately from the shot at first.
-
-The key to all shot creation: Every move must be built on the foundation of triple threat, proper footwork, and dribble control. You cannot create shots without the base skills. Shot creation is fundamentals applied in combinations.`,
-    coachingPoints: [
-      'The step-back only works if you have shown the drive first — set it up with 2-3 drive attempts before using the counter',
-      'The floater release point is critical — too close to the rim and it gets blocked, too far and you miss the touch',
-      'Great shot creators always have two moves per possession: a primary and a counter ready',
-      'Kobe could hit a stepback, turnaround, fade-away, and drive-and-finish from any spot — build your full arsenal',
-    ],
-    commonMistakes: [
-      'Using step-backs without establishing the drive — a step-back with no drive setup is a difficult shot with no purpose',
-      'Releasing the floater too late — by the time the big has elevated, it is too late. Release before they leave the ground',
-      'Stopping too upright on pull-up jumpers — your knees must be bent when you stop so you have power to rise',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=step+back+jumper+basketball+tutorial',
-    videoTitle: 'Step-Back and Shot Creation Tutorial',
-    highlightAssignment: 'Watch "Kobe Bryant shot creation and footwork" in slow motion. For every shot, pause before his final move and guess what he is about to do. Then watch. How often were you right? The unpredictability is what makes him elite.',
-    drills: [
+    tagline: 'Make a shot when no shot is given',
+    chapters: [
       {
-        id: 'sc-d1', name: 'Step-Back Series', duration: '6 min',
-        instructions: 'Dribble hard toward the free throw line. Plant your inside foot and push backward 2 steps. Rise up and shoot before you land. The explosion backward must be as powerful as the drive forward. 15 step-backs from both wings and the top of the key. Make 8 of 15.',
-        type: 'shooting',
+        title: 'The Step-Back and Euro Step',
+        content: `Shot creation is the ability to manufacture a high-quality shot against a set defense without help from a screen or a play. It is what makes elite scorers elite — they can score whenever they need to, not just when the offense creates them an opening.
+
+The Step-Back Jumper: The most dangerous move in modern basketball. You drive hard at the defender, creating their forward momentum. At the last moment, plant your lead foot explosively and push BACKWARD — two steps back, already in your shooting motion. The defender's momentum carries them toward you while you are stepping away. By the time they stop and recover, you have already released.
+
+Why it requires setup: A step-back with no preceding drive attempt is simply a difficult shot taken from further back. The move works because the drive establishes the defender's commitment to stopping the drive. Show the drive 2-3 times per game to force the defender to respect it. Then, when they are leaning forward in anticipation, use the step-back. The contrast is what creates space.
+
+James Harden, Luka Doncic, Kevin Durant: Three of the best modern scorers built entire offensive arsenals around the step-back. Study their footwork specifically — the plant and the push-back are explosive and precise. The step-back is not a slow, casual move backward. It is a violent, athletic explosion in the opposite direction.
+
+The Euro Step: Drive at the basket from the wing. Take your first step in the expected direction — this commits the defender's momentum. Take your second step in a completely different direction, around the defender's body. Finish the layup from the new angle. Manu Ginobili popularized this in the NBA; it is now standard at every level. The key: both steps must be at game speed. A slow Euro step gives the defender time to adjust. At full speed, the defender's body cannot change direction fast enough.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=step+back+jumper+euro+step+basketball+tutorial',
+        videoTitle: 'Step-Back and Shot Creation Tutorial',
       },
       {
-        id: 'sc-d2', name: 'Euro Step Finish', duration: '5 min',
-        instructions: 'Drive from the wing at game speed. At the final step before the basket, plant and step laterally in a new direction. Finish the layup. Right side: plant right, step left, left hand finish. Left side: plant left, step right, right hand finish. 10 each side.',
-        type: 'footwork',
-      },
-      {
-        id: 'sc-d3', name: 'Floater Practice', duration: '5 min',
-        instructions: 'Drive from the wing, plant 5-7 feet from the basket, and push a high-arc floater over an imaginary defender. The ball must reach at least 15 feet high at its peak. Start without a defender, then add a chair as the "big." 20 floaters each side.',
-        type: 'shooting',
+        title: 'The Floater and Pull-Up Jumper',
+        content: `The floater and pull-up jumper complete the shot-creator's arsenal. Together with the step-back and Euro step, they give you an answer for every defensive situation you will face.
+
+The Floater: When you drive into the lane and a shot-blocking center is protecting the rim, the standard layup gets blocked. The floater is your solution — a high-arc shot released from 5-8 feet before the basket, before the shot-blocker can time their jump. You plant your inside foot, push the ball high in a scooping motion with your shooting hand, and let it drop softly into the basket from above the defender's reach.
+
+Tony Parker's floater was virtually unguardable in his prime because he released it so quickly and at such a difficult angle. The shot-blocker was always a half-second late — Parker had already released before they could elevate. Practice the floater from both sides, on the move, at game speed. The touch required (soft enough to drop in, hard enough to reach the basket) develops only through repetition.
+
+The Pull-Up Jumper: Stop on a dime from a full dribble and shoot. The footwork of the stop is the entire skill — your body is traveling at speed and must decelerate into a stable shooting platform in one fluid motion. The "1-2 step stop": your inside foot plants (1) and your outside foot comes up alongside it (2), instantly in your shooting stance. The gather must be low enough that your knees are bent upon stopping, giving you immediate power to rise.
+
+Players who use the pull-up poorly do so because they stop upright — no knee bend on the stop. The result is a flat, arm-only shot that misses short or clangs off the front of the rim. Stop low, knees bent, and rise up into the shot. The deceleration and acceleration into the shot must feel like one smooth motion, not a stop-then-shoot.`,
       },
     ],
     quiz: {
@@ -198,53 +149,40 @@ The key to all shot creation: Every move must be built on the foundation of trip
     emoji: '🛡️',
     category: 'Advanced Defense',
     track: 2,
-    explanation: `Elite defense is a system, not just individual effort. The best defensive players understand the whole scheme, not just their own assignment.
-
-On-ball defense advanced principles: Do not give up the first step — your positioning determines whether the ball handler even gets a good drive. Stay one step to their strong-hand side (taking away their strength) without cheating too far that they can blow by with the weak hand. Maintain 1-2 feet of cushion on explosive players — you need reaction time.
-
-Help defense — the key to team defense: When the ball handler drives, you must decide instantly: help or stay? Help side positioning means you are standing on the weak side, one step off your player, angled to see both the ball and your player. When the drive comes, step into the gap at the charge circle to take the charge, or contest the pass. After helping, immediately find your player — this is called "help and recover."
-
-Taking charges: The most underrated play in basketball. Step in front of a driving player, establish your feet before they leave the ground on the final step, and absorb the contact by leaning back. If your feet are set, it is a charge on the offense — you get the ball and they get a foul. This takes courage and positioning. The best defensive teams manufacture 3-5 charges per game.
-
-Switching: Modern NBA teams switch screens constantly. When you switch, you must (1) communicate loudly so your teammate knows you have their assignment, and (2) immediately engage the new player at arm's length — do not give them room to shoot.
-
-Forcing turnovers vs. staying disciplined: Gambling for steals leads to fouls and layups. The disciplined defender forces bad shots and difficult passes — turnovers happen naturally. The gambling defender gives up easy baskets trying for highlights.`,
-    coachingPoints: [
-      'Help defense is a team responsibility — if everyone helps correctly, the ball handler runs out of options',
-      'Take charges whenever legally possible — they shift momentum and score you and your team a foul on the opponent',
-      'Communicate EVERY defensive possession: switch calls, screen calls, help calls — talk constantly',
-      'The best defensive teams practice defense as much as offense — it is never an afterthought',
-    ],
-    commonMistakes: [
-      'Not knowing your help position — standing directly behind your player instead of in help-side position',
-      'Helping and not recovering — after helping, you must sprint back to your player before they get the pass',
-      'Reaching for steals instead of staying disciplined — reaching gives up fouls and easy baskets',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=advanced+basketball+defense+help+side+tutorial',
-    videoTitle: 'Help-Side Defense and Advanced Defensive Principles',
-    highlightAssignment: 'Watch "San Antonio Spurs defense highlights" — any era, any game. Notice how every Spurs defender moves when the ball moves, even if they are on the opposite side of the court. That coordinated help defense is what made them one of the greatest defensive teams ever.',
-    drills: [
+    tagline: 'Defense is a system, not just effort',
+    chapters: [
       {
-        id: 'ad-d1', name: 'Help Side Positioning Walk-Through', duration: '5 min',
-        instructions: 'Walk through all 5 defensive positions on the court as the ball moves. Every time the ball moves, every defender must adjust. Practice the correct help-side position for each ball location. Slow and deliberate — this is conceptual. Then do it at game speed.',
-        type: 'footwork',
+        title: 'Help Defense and Team Concepts',
+        content: `Individual defense stops individual players. Team defense stops offenses. The best defensive teams in NBA history — the Jordan-era Bulls, the Spurs, the Warriors — won because every player understood the team defensive scheme and executed it with precision.
+
+Help-side positioning: When you are not guarding the ball, you are in "help-side" position. This means you are standing in a spot where you can see both your assigned player AND the ball simultaneously. Your body is angled to keep both in view. You are one step off the passing lane (so you can deny) but close enough to help if the ball handler drives. The "ball-you-man" triangle is the mental image — you are the middle of a triangle with the ball and your player at the two ends.
+
+When to help and when to stay: When the ball handler beats their defender off the dribble, you must decide instantly: help or stay? Help means leaving your player to step in front of the drive. Stay means trusting your teammate to recover. The correct answer depends on: how dangerous your assigned player is (an open 3-point shooter in the corner demands you stay), how bad the drive is (a clear path to the basket demands you help), and what your team's defensive scheme calls for.
+
+The help-and-recover: When you leave your player to help on a drive, you must recover IMMEDIATELY to your player once the ball is passed. This help-and-recover cycle — help on the drive, recover when the ball leaves — is the foundation of team defense. Players who help but do not recover leave shooters open. Players who recover but did not help properly give up easy baskets. Both parts of the cycle are mandatory.
+
+Taking charges: One of the most undervalued plays in basketball. Step in front of a driving player, establish your feet before they leave the ground on their final step, and absorb the contact by leaning back and going to the floor. The official awards the charge: ball goes to your team, foul goes on the offensive player. Teams that consistently take 3-4 charges per game are essentially getting free possessions. The courage and correct technique to take charges defines elite defensive teams.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=advanced+basketball+help+side+defense+tutorial',
+        videoTitle: 'Help-Side Defense and Team Defensive Principles',
       },
       {
-        id: 'ad-d2', name: 'Charge Practice', duration: '5 min',
-        instructions: 'Have a partner slowly walk at you while you establish your feet in the restricted area circle edge. They make contact. You absorb and go down (safely, controlled). Your feet must be set BEFORE contact. 10 charge practices. Build the courage and technique simultaneously.',
-        type: 'footwork',
-      },
-      {
-        id: 'ad-d3', name: 'Switch Communication Drill', duration: '4 min',
-        instructions: 'With a partner: one plays offense with the ball, one cuts without the ball. You guard the ball handler. When the cutter tries to set a screen, yell "SWITCH!" and both defenders swap assignments instantly. 10 switches. The yell must happen before the screen makes contact.',
-        type: 'footwork',
+        title: 'Switching, Trapping, and Pressure Defense',
+        content: `Modern basketball demands defensive versatility. The pick-and-roll, off-ball screens, and complex spacing force defenses to communicate and switch constantly. Understanding how to defend all these situations makes you an elite defender at any level.
+
+Switching on screens: When your teammate's player sets a screen on you, you have the option to switch — you take their player, they take yours. The switch must be communicated LOUDLY and early: "Switch!" before the screen makes contact, so your teammate is already turning to guard your original player. Silent switches result in the offense being completely uncovered for a moment.
+
+After the switch: The moment you call switch and take the new assignment, engage them at arm's length immediately. Never give a receiver space after a switch — they will catch and shoot before you close. One arm's length of space while you take stock of the situation. Then tighten your coverage.
+
+Trapping the pick-and-roll: When both defenders crowd the ball handler simultaneously at the screen, this creates a trap. The goal is a rushed, panicked pass. Your two defenders must communicate to arrive simultaneously — one arriving before the other lets the ball handler escape the side of the late defender. Traps work when they are perfect. They backfire when they are sloppy.
+
+Full-court pressure: When you apply pressure on the ball from baseline to baseline, you are trying to force turnovers before the offense can run a play. Effective pressure requires every player playing higher-intensity defense than normal and communicating on every trap and rotation. Pressure loses its effect immediately when players rest — the moment one defender lets up, the press is broken. Press defense is a conditioning statement as much as a tactical one.`,
       },
     ],
     quiz: {
       question: 'What is "help-side" positioning in basketball defense?',
       options: [
         { text: 'Standing directly behind your assigned player', correct: false },
-        { text: 'Positioning on the weak side where you can see both the ball and your player to help when the ball drives', correct: true },
+        { text: 'Positioning where you can see both the ball and your player to help when the drive comes', correct: true },
         { text: 'Always guarding the closest player to the basket', correct: false },
         { text: 'Doubling the ball handler every possession', correct: false },
       ],
@@ -260,57 +198,42 @@ Forcing turnovers vs. staying disciplined: Gambling for steals leads to fouls an
     emoji: '🔺',
     category: 'Team Systems',
     track: 3,
-    explanation: `The Triangle Offense is the most misunderstood and most successful offensive system in NBA history. Phil Jackson ran it with the Bulls (6 championships) and the Lakers (5 championships). 11 total championships with one offensive system.
-
-The core concept: Three players form a triangle on one side of the court — corner, wing, and post. Two players fill the weak side. The triangle creates passing angles to every spot on the court and makes it impossible for the defense to cover everyone simultaneously.
-
-The sideline triangle: The ball is on the wing. One player is in the corner (baseline). One player is in the post (block). These three form the triangle. The spacing between them is critical — typically 15 feet between each player, creating maximum passing lanes and drive angles.
-
-Why it works: The triangle offense has NO predetermined play caller, no set plays, and no dominant ball handler running the offense. Instead, every player reads the defense and makes the correct decision — pass, cut, shoot, or drive — based on what the defense gives. This makes it impossible to scout because there is no set play to take away.
-
-Decision-making in the triangle: The post player receives the ball. They read: if their defender is behind them, they drop-step and score. If the defense double-teams, the post player passes to the open perimeter player. If the defender steps out, the post player attacks. Every read has a correct answer.
-
-Player movement: The triangle is not a static system. Players constantly cut, fill spots, and exchange positions. When you cut, someone fills your spot. The spacing is maintained by MOVEMENT, not by standing still.
-
-Why it requires elite players: The triangle requires every player to make correct decisions instantly — there is no play to fall back on. This is why Phil Jackson called it "the system that requires the most basketball intelligence." Michael Jordan initially HATED it because he could not just create his own shot. But he learned it and became unstoppable within it.`,
-    coachingPoints: [
-      'The triangle is a decision-making system, not a set of plays — every player must be able to read all five positions',
-      'Spacing is maintained by movement — when one player moves, all four others must adjust simultaneously',
-      'The system is predicated on reading the defender — the defense always tells you what to do',
-      'Phil Jackson said: "The triangle is not for every team — it requires unselfishness and basketball intelligence above all"',
-    ],
-    commonMistakes: [
-      'Treating it as a set play — the triangle has no predetermined sequencing. It is entirely read-and-react',
-      'Breaking the spacing to help a teammate — movement that collapses the triangle destroys its advantage',
-      'Forcing your read — if the defense takes away your option, the next player in the triangle has the advantage',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=triangle+offense+explained+basketball',
-    videoTitle: 'Triangle Offense Explained',
-    highlightAssignment: 'Find "Chicago Bulls triangle offense highlights 1990s" and watch 10 minutes. Pause every possession and identify: Where is the triangle? Who is reading the defense? When the ball moves, how do all 5 players adjust? This is the most complex team offense ever run.',
-    drills: [
+    tagline: '11 championships. One offense.',
+    chapters: [
       {
-        id: 'tri-d1', name: 'Three-Man Triangle Passing', duration: '6 min',
-        instructions: 'Set up 3 players (or cones) in triangle formation: corner, wing, post. Pass around the triangle continuously — corner to wing to post to corner. After 10 passes, the post player "reads" an attack move and goes to the basket. This builds the triangle passing rhythm.',
-        type: 'ball-handling',
+        title: 'The Architecture of the Triangle',
+        content: `Phil Jackson used the Triangle Offense to win 11 NBA championships — 6 with the Chicago Bulls and 5 with the Los Angeles Lakers. No other coach has come close to that number. No other offensive system has won that many. The Triangle is not a collection of plays. It is a decision-making framework.
+
+The core structure: Three players form a triangle on one side of the court — one player in the corner, one on the wing, one in the post (or at the block). Two players fill the weak side. The triangle creates passing angles to every area of the court simultaneously, making it impossible for the defense to take away all options at once.
+
+The sideline triangle positioning: The post player is at the block. The wing player is at the elbow (15 feet from the post). The corner player is in the corner, 15 feet from the wing. Each player is approximately 15 feet from their triangle neighbor — far enough that one defender cannot guard two, close enough to pass to each other easily.
+
+Why no play caller is needed: Unlike most offenses where a coach or point guard dictates every action, the Triangle tells players to read the defense and make the correct decision based on what they see. The post player reads: if the defender is behind me, drop step. If the double team comes, pass to the open perimeter player. The wing reads: if my defender leaves to double, I shoot. If they stay, I pass to the open corner. Every read has a correct answer. Players learn the reads, and the offense runs itself.
+
+The role of basketball intelligence: Phil Jackson chose the Triangle partly as a personnel filter. The system requires high basketball IQ from every player — not just the star. When he installed it with the Bulls, Michael Jordan initially hated it because it limited his individual ball-handling. Jackson convinced Jordan that the system would make him MORE dangerous — because defenders could not key exclusively on him. Jordan learned the system, trusted it, and won 6 championships.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=triangle+offense+explained+basketball+phil+jackson',
+        videoTitle: 'Triangle Offense Explained',
       },
       {
-        id: 'tri-d2', name: 'Post Read Drill', duration: '5 min',
-        instructions: 'Receive the ball in the post. A partner plays defense. Read and react: defender behind you → drop step, defender doubles → pass to wing immediately, defender steps out → face up and attack. 10 reads. The defense must show different looks.',
-        type: 'shooting',
-      },
-      {
-        id: 'tri-d3', name: 'Fill the Spot', duration: '5 min',
-        instructions: 'Start in the triangle. When one player cuts to the basket, the nearest other player must immediately fill their vacated spot. Practice the cutting and filling pattern until it is automatic. 5 minutes of continuous movement.',
-        type: 'footwork',
+        title: 'Running the Triangle — Decision-Making',
+        content: `The Triangle's reads are specific and learnable. Understanding them transforms you from a player who runs plays into a player who understands why offense works.
+
+The post entry and reads: The triangle begins when the ball enters the post. The post player catches and immediately reads their defender: (1) Defender behind you — drop step baseline or middle, finish. (2) Defender beside you — face up and attack from close range. (3) Defense doubles — the double team means two of your four teammates are open. Find the open player before the defense recovers. (4) Defender steps out — drop the ball to the cutter sneaking behind them.
+
+The dribble-entry read: When the ball handler dribbles toward the post player (a "dribble entry"), the post player reads this as a signal to cut away from the ball. This creates movement and forces the defense to choose: follow the post player cutting away, or help on the driving ball handler. Either choice creates an open player.
+
+Weak-side reads: Two players are always on the weak side of the Triangle. They read the post action and move to fill gaps: if the post player scores, they fill positions. If the double team comes, the weak-side players are the targets of the kick-out pass. The weak-side players must be ready to shoot, drive, or pass immediately — their read must happen before the ball arrives.
+
+Player movement principles: In the Triangle, the rule is simple: if you pass the ball, you move. If you hold the ball, you use it (drive, shoot, or pass and cut). Standing still after passing collapses the system — you must immediately cut to create a new action. This non-stop movement is why Triangle teams can often score even without specific plays — the movement itself creates opportunities.`,
       },
     ],
     quiz: {
-      question: 'What made the triangle offense impossible to fully scout and neutralize?',
+      question: 'What made the Triangle Offense impossible to fully scout?',
       options: [
-        { text: 'It had over 100 different plays', correct: false },
-        { text: 'It had no predetermined plays — decisions were based on reading the defense in real time', correct: true },
-        { text: 'Michael Jordan was always the ball handler', correct: false },
-        { text: 'It only worked with the tallest players', correct: false },
+        { text: 'It had over 100 different set plays', correct: false },
+        { text: 'It had no predetermined plays — decisions were based entirely on reading the defense in real time', correct: true },
+        { text: 'Michael Jordan always controlled the ball', correct: false },
+        { text: 'It only worked with the tallest players available', correct: false },
       ],
     },
     xpReward: 70,
@@ -322,57 +245,42 @@ Why it requires elite players: The triangle requires every player to make correc
     emoji: '🏃💨',
     category: 'Team Systems',
     track: 3,
-    explanation: `The Run and Gun offense — also called "Seven Seconds or Less" — is the polar opposite of the Triangle. Where the triangle is methodical and patient, the Run and Gun is explosive and immediate.
-
-The philosophy: Shoot within seven seconds of getting the ball — every possession. Get the ball in transition before the defense can set up. Push the pace to 90+ possessions per game (typical NBA game is 70-80). Force the defense to play the entire game at an uncomfortable pace.
-
-Steve Nash and Mike D'Antoni's Suns: The 2004-2008 Phoenix Suns revolutionized basketball with this system. Steve Nash — a two-time MVP — was not the fastest or most athletic player. He was the smartest. His ability to make the right decision in 2 seconds, every time, made the system work.
-
-Key principles: Push every rebound immediately — do not wait for the play to be called. Space the floor with shooters at every position. The point guard must be able to read the defense in the first three seconds and either shoot, drive, or advance to a teammate who has the better position. Never let the defense set up.
-
-Why it works: Most defenses are designed for half-court basketball. They have positioning, rotations, and schemes for set situations. A team that pushes the pace and gets there before those defensive rotations can be set up exploits this — the defense is always one step behind.
-
-The evolution into today's NBA: Every NBA team now plays fast. The Golden State Warriors combined the pace of Run and Gun with the spacing of the Triangle and the precision of the Spurs system. Understanding Run and Gun principles explains why modern basketball looks the way it does.
-
-The trade-off: Run and Gun teams give up more points because they take more shots. The philosophy is: we will outscore you, not out-defend you. This requires elite offensive players and elite shooting percentages.`,
-    coachingPoints: [
-      'The point guard\'s decision speed is the most critical factor — slow decisions end fast breaks',
-      'Running the floor hard every possession, even when tired, is what creates the system\'s advantage',
-      'Shooting percentages matter more in Run and Gun — bad shots are especially costly when volume is this high',
-      'Nash said: "In run and gun, there are no bad shots if the shot was open when it was taken"',
-    ],
-    commonMistakes: [
-      'Slowing down in the fourth quarter — the pace must be maintained all 48 minutes or the system fails',
-      'Taking low-percentage shots just to take them — run and gun means fast good shots, not fast bad shots',
-      'Not sprinting back on defense — run and gun teams that do not sprint back give up easy baskets constantly',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=phoenix+suns+run+and+gun+seven+seconds+or+less',
-    videoTitle: '7 Seconds or Less — Steve Nash Suns Offense',
-    highlightAssignment: 'Watch "Steve Nash Phoenix Suns offense highlights." Count how many seconds pass between getting the ball and shooting or making a decisive pass. Most will be under 7 seconds. Notice how Nash already knows his decision before catching the ball.',
-    drills: [
+    tagline: 'Seven seconds or less. Every possession.',
+    chapters: [
       {
-        id: 'rng-d1', name: '7-Second Possession Drill', duration: '6 min',
-        instructions: 'Start with the ball at half court. You have 7 seconds to dribble, read, and take a quality shot. Someone counts out loud from 1 to 7. If you have not shot by 7, that possession was wasted. 15 possessions. Build the urgency and the read-and-decide speed.',
-        type: 'shooting',
+        title: 'The Seven Seconds or Less Philosophy',
+        content: `In 2004, the Phoenix Suns hired Mike D'Antoni as head coach and drafted Steve Nash with the Amaare Stoudemire already on the roster. The resulting offense — "Seven Seconds or Less" — changed basketball permanently by proving that pace and space could dominate even without a traditional post presence.
+
+The principle: Shoot within seven seconds of gaining possession — every possession, every time, all 48 minutes. The reasoning: most defensive schemes are designed for half-court basketball. They have specific rotations, specific coverages, and specific positions for every player based on a deliberate, half-court offensive set. A team that attacks before the defense can set those positions exploits the gap between the defensive ideal and the defensive reality.
+
+What seven seconds actually means: The clock starts the moment your team gains possession — a rebound, a steal, a made basket inbound. From that instant, you have seven seconds to get to a quality shot. A quality shot in this system is not any shot — it is an open shot from a spacing position, or a drive created before the defense can set their defensive assignments.
+
+Steve Nash's role: Nash — a two-time MVP — was the perfect operator for this system. He was not the fastest player. He was not the most athletic. He was the most decisive. His ability to make the correct decision in 2 seconds, every time, against any defense, turned the system from a theory into a dynasty-level offense. Study Nash's decision-making specifically: he catches, surveys in one second, and delivers the perfect pass before a second has been wasted.
+
+Why it exhausted defenses: Playing defense against a team that never lets you set up is physically and mentally exhausting. Defensive rotations require verbal communication, physical repositioning, and mental concentration. A team that attacks within 7 seconds forces all of that — setting rotations, communicating, physically running — to happen at a pace the defense cannot sustain for 48 minutes.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=phoenix+suns+seven+seconds+or+less+steve+nash',
+        videoTitle: '7 Seconds or Less — Steve Nash Suns Offense',
       },
       {
-        id: 'rng-d2', name: 'Transition Sprint', duration: '5 min',
-        instructions: 'Simulate getting a rebound. Sprint to the other end in 3 dribbles or fewer and finish with a layup or pull-up jumper. The goal is maximum speed from rebound to shot in under 5 seconds. 10 transition reps. This is run and gun in practice.',
-        type: 'footwork',
-      },
-      {
-        id: 'rng-d3', name: 'Decision at Full Speed', duration: '5 min',
-        instructions: 'Dribble at game speed toward the basket. At the free throw line, make an instant decision: shoot, drive left, drive right, or kick out (simulate pass). A partner can call "Left! Right! Shoot!" randomly and you must react and execute immediately. 15 reps.',
-        type: 'ball-handling',
+        title: 'Pace, Space, and Decision Speed',
+        content: `The Run and Gun requires three things from every player: pace (the physical ability to play fast), space (the positioning discipline to maintain spacing at high speed), and decision speed (the mental ability to read and react in under 2 seconds).
+
+Pace — the physical demand: Running and gunning for 48 minutes is one of the most demanding things a basketball team can do physically. Players must sprint back on defense after every possession (misses AND makes), sprint in transition on every possession, and maintain defensive effort while executing offense at this speed. The D'Antoni Suns trained specifically for this pace — their conditioning work was designed around game-speed intensity, not traditional basketball workouts.
+
+Space — the tactical discipline: At high pace, spacing breaks down easily. Players run to the wrong spots, crowd drives, and collapse the offensive structure. The 5-out spacing (corners, wings, top) must be maintained even during transition — players must know their spacing assignments and fill them at a sprint. A team that runs fast but loses its spacing has simply increased the pace of its turnovers.
+
+Decision speed — the mental skill: The decision you take 4 seconds to make in half-court basketball must be made in 1.5 seconds in run-and-gun. This is not about being smarter — it is about having your reads so deeply trained that they are automatic. Nash could look at a defense and instantly see: "their help defender is one step too far left — drive and dish to the corner." That read took him a fraction of a second because he had trained it thousands of times.
+
+The evolution into today's NBA: Every modern NBA team plays faster than pre-D'Antoni basketball. The Golden State Warriors combined Run and Gun pace with precision passing and 3-point shooting. The Houston Rockets took the analytics logic of Run and Gun (take fast, high-value shots) to its mathematical extreme. Understanding D'Antoni's Suns explains why the entire NBA looks the way it does today.`,
       },
     ],
     quiz: {
       question: 'What was the core principle of the "Seven Seconds or Less" offense?',
       options: [
-        { text: 'Run only fast breaks and never set plays', correct: false },
-        { text: 'Shoot within seven seconds of getting the ball — every possession, every time', correct: true },
-        { text: 'Only the point guard is allowed to shoot', correct: false },
-        { text: 'Play only zone defense to save energy for offense', correct: false },
+        { text: 'Run only fast breaks and never set half-court plays', correct: false },
+        { text: 'Shoot within seven seconds of getting the ball — every possession', correct: true },
+        { text: 'Only the point guard is allowed to initiate offense', correct: false },
+        { text: 'Play zone defense to save energy for offense', correct: false },
       ],
     },
     xpReward: 65,
@@ -384,53 +292,40 @@ The trade-off: Run and Gun teams give up more points because they take more shot
     emoji: '🔄',
     category: 'Team Systems',
     track: 3,
-    explanation: `Motion offense is the foundation of most youth and college basketball programs — and the basis for much of what the Golden State Warriors do at the NBA level. It teaches players to play the game, not run plays.
-
-The core rules of motion offense: (1) Never stand still — if you do not have the ball, you must be moving. (2) Always have a purpose for your movement — cut, screen, or space. (3) Pass and immediately move — never watch your pass; cut, screen, or relocate after passing. (4) Read what the defense gives — do not force a predetermined action.
-
-The five actions of motion offense: Cut (backdoor, V-cut, flex cut), screen (on-ball, off-ball, back screen), pass and relocate (pass and move to a new spot), dribble penetration (attack the basket, kick to open teammates), and drive and kick (drive, draw the defense, pass to the open shooter).
-
-Ball movement and the "extra pass": The Warriors became the most dominant offensive team in modern NBA history by taking "one more pass" — when a teammate is open, look for the teammate who is MORE open. This creates the best possible shot. Draymond Green's basketball IQ to find the extra pass is what made Steph Curry's shot easier.
-
-The "4-out 1-in" motion: Four players spread the perimeter (corners and wings), one player in the post. This creates maximum spacing for drives and passes. The most common modern motion structure.
-
-Why coaches love motion offense: It teaches basketball thinking, not memorized plays. Players who grow up in motion offense understand the game at a conceptual level — they can play in any system because they understand WHY everything happens.`,
-    coachingPoints: [
-      'Pass and move — every time you pass, your next action should already be decided: cut, screen, or relocate',
-      'The extra pass wins championships — always look for the teammate who is MORE open, not just open',
-      'Space creates offense — if you are crowding a cutter or driver, move away and give them the lane',
-      'Motion offense has no "go-to" player — every player must be a scoring and passing threat simultaneously',
-    ],
-    commonMistakes: [
-      'Standing still after passing — this is the most common motion offense mistake at every level of basketball',
-      'Cutting when the lane is occupied — your cut must have a clear path or you are hurting the spacing',
-      'Forcing a set play within motion — trust the system and read the defense instead',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=motion+offense+basketball+explained+youth',
-    videoTitle: 'Motion Offense Explained for Youth Basketball',
-    highlightAssignment: 'Watch "Golden State Warriors offense ball movement" — any recent season. Count the passes per possession. Notice how the ball movement is not random — every pass is purposeful, and every player moves after passing. That is elite motion offense in action.',
-    drills: [
+    tagline: 'The ball moves faster than any defender',
+    chapters: [
       {
-        id: 'mo-d1', name: 'Pass and Cut Habit', duration: '5 min',
-        instructions: 'With a partner: pass the ball, then immediately cut to the basket for a return pass and layup. Every single rep — pass, cut, receive, finish. This builds the "pass and move" automatic habit. 20 pass-and-cut sequences. Stop if you EVER hold the ball without moving after the catch.',
-        type: 'footwork',
+        title: 'The Principles of Motion Offense',
+        content: `Motion offense is the foundation of most youth, college, and professional basketball programs — and the basis for what the Golden State Warriors do at the NBA level. It teaches players to understand basketball principles rather than memorize plays. Players who grow up in motion offense become basketball thinkers, not basketball robots.
+
+The five rules of motion offense: (1) Never stand still — if you do not have the ball, you are moving. (2) Every movement has a purpose — cut, screen, or relocate. (3) Pass and move — after passing, you immediately do something productive. (4) Read the defense — do not force a predetermined action, do what the defense gives you. (5) Find the extra pass — look for the teammate who is MORE open, not just open.
+
+The "pass and cut" default: The simplest motion action. You pass the ball. Immediately after releasing it, you cut hard toward the basket. Your teammate hits you with a return pass for a layup — or, if they cannot, you fill a new spacing position on the weak side. This is the default action when nothing else is called. Pass and cut, pass and cut. The constant movement creates constant problems for the defense.
+
+The importance of "the extra pass": The most revolutionary concept in motion offense. When a teammate is open, look for the teammate who is MORE open before shooting. A wide-open corner 3 is a good shot. The teammate who is completely alone because the defense over-helped on the drive is an even better shot. Taking the extra pass requires unselfishness — the willingness to give up a good shot for a great shot. The Warriors built their dynasty on the extra pass. Their offense is motion offense executed at the highest possible level.
+
+Why coaches love motion offense: Set plays can be scouted and taken away. Motion offense reads — because it is based on reading the defense rather than running a predetermined sequence — cannot be taken away. A team that truly understands motion offense adapts to whatever defense throws at them.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=motion+offense+basketball+explained+principles',
+        videoTitle: 'Motion Offense Basketball — Principles and Execution',
       },
       {
-        id: 'mo-d2', name: 'Extra Pass Drill', duration: '5 min',
-        instructions: 'Dribble to the wing with an open look at the basket. But before shooting, make one more pass to a simulated open teammate (or toss the ball to a spot). Then you receive the pass back and shoot. This builds the "extra pass" habit — looking for the best shot, not the first shot.',
-        type: 'shooting',
-      },
-      {
-        id: 'mo-d3', name: '3-on-0 Motion', duration: '6 min',
-        instructions: 'Three players, no defense. Run motion offense for 5 minutes — constant cutting, screening, passing, and relocating. Every player must touch the ball every 2-3 passes. Nobody stands still. Score when a truly open shot presents itself. Build the flow.',
-        type: 'ball-handling',
+        title: 'Executing Motion Offense at a High Level',
+        content: `Understanding motion offense principles is the first step. Executing them under game conditions — at speed, against physical defenders, with the game on the line — is the second step and the much harder one.
+
+Cutting with purpose: Every cut in motion offense has a specific purpose and a specific destination. The backdoor cut punishes an overplaying defender. The V-cut creates separation for a catch. The post cut (from the perimeter to the block) exploits a mismatch. The flare cut (away from the basket, toward the corner) creates a spacing outlet. Know which cut is correct for each defensive situation — do not cut randomly. Random cutting moves bodies without creating advantages.
+
+Screening discipline: Off-ball screens in motion offense must be set legally and precisely. An illegal screen (moving, leaning, extending arms) negates the entire action. A screen set at the wrong angle misses the defender entirely. The screener must read which direction their teammate will use them — curl? fade? straight? — and roll or pop accordingly. Screening is a discipline that takes weeks of practice to develop.
+
+Five-out spacing in motion: When all five players are on the perimeter (5-out), the spacing creates maximum driving lanes and the maximum number of kick-out opportunities. This is the base structure of most motion offenses. From 5-out, any player can attack from any position — the offense is completely fluid and unpredictable.
+
+The Golden State Warriors as the model: The Warriors run motion offense as precisely as any professional team in history. Study their ball movement — they average the most passes per game in the NBA consistently. Every pass is purposeful. Every player moves after passing. The result is open shots for whoever makes the correct read. This is motion offense at its highest expression.`,
       },
     ],
     quiz: {
       question: 'In motion offense, what should you do immediately after passing the ball?',
       options: [
         { text: 'Watch to see if your teammate makes a good play', correct: false },
-        { text: 'Stay in your spot and wait for the ball to come back', correct: false },
+        { text: 'Stay in your spot and wait for the ball to return', correct: false },
         { text: 'Immediately cut, screen, or relocate to a new position', correct: true },
         { text: 'Call out the next play to run', correct: false },
       ],
@@ -446,54 +341,41 @@ Why coaches love motion offense: It teaches basketball thinking, not memorized p
     emoji: '☯️',
     category: 'Coaching Legends',
     track: 4,
-    explanation: `Phil Jackson won 11 NBA championships as a head coach — more than anyone in history. His coaching philosophy was not just about basketball. It was about human beings and how to get the best out of them.
-
-The Zen Master approach: Phil Jackson studied Zen Buddhism, Native American philosophy, and team psychology before he ever became a coach. He believed that basketball was a microcosm of life — that the same principles that create inner peace and wisdom also create team chemistry and championship performance.
-
-Mindfulness and presence: Jackson taught his players to be fully present in the moment — not thinking about the last play or the next possession, but THIS play. He introduced mindfulness meditation to the Chicago Bulls in 1993 — elite athletes meditating before games was unheard of. The practice helped Rodman, Pippen, and Jordan stay calm in fourth-quarter pressure situations.
-
-Trust and roles: Jackson believed deeply in the triangle offense partly because it required EVERY player to be trusted with the ball. He consistently gave Horace Grant, John Paxson, Steve Kerr, and other "role players" the game-winning opportunity — and they delivered. His philosophy: "When every player believes they matter, every player plays at their highest level."
-
-Managing egos: Phil Jackson managed Michael Jordan, Kobe Bryant, Dennis Rodman, and Shaquille O'Neal — four of the most difficult personalities in sports history. His method: never publicly criticize, always give credit to the team, privately demand accountability. He once benched Michael Jordan in a critical situation to prove the team mattered more than any individual.
-
-The sacred hoop: Jackson's most famous book is "Sacred Hoops." His central belief: a basketball team at its best is a single organism with five minds and one purpose. Individual talent is necessary but insufficient — only when players sacrifice individual glory for team success does championship basketball become possible.`,
-    coachingPoints: [
-      'Mindfulness — being fully present on each possession — is a skill that can be trained, not a personality trait',
-      'Jackson proved that managing personalities is as important as drawing up plays',
-      'Trust in role players creates a team where everyone is invested in winning, not just the stars',
-      'Eleven championships came from one philosophy: "Not me — us." Selflessness is a competitive advantage',
-    ],
-    commonMistakes: [
-      'Thinking championship culture is about one great player — Jackson won with Jordan AND with Kobe, proving it is a system',
-      'Ignoring the mental game — Jackson\'s meditation practices are now standard in elite sports psychology',
-      'Confusing mindfulness with passivity — Phil Jackson\'s teams were fierce competitors who happened to be mentally clear',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=phil+jackson+coaching+philosophy+basketball',
-    videoTitle: 'Phil Jackson — Coaching Philosophy and Leadership',
-    highlightAssignment: 'Find any Phil Jackson interview on YouTube. Listen specifically for how he describes his players — he always talks about their CHARACTER, not their statistics. What does that tell you about what he valued in a basketball player?',
-    drills: [
+    tagline: '11 championships. One philosophy.',
+    chapters: [
       {
-        id: 'pj-d1', name: 'Pre-Practice Mindfulness', duration: '5 min',
-        instructions: 'Before you pick up a basketball: sit or stand still for 3 minutes. Eyes closed. Focus entirely on your breathing. When your mind wanders to school, friends, or games — return to the breath. Then spend 2 minutes visualizing your best basketball self making perfect plays. This is Phil Jackson\'s pre-practice routine adapted for you.',
-        type: 'stretch',
+        title: 'The Philosophy Behind 11 Championships',
+        content: `Phil Jackson won 11 NBA championships as a head coach — more than any coach in professional basketball history. His secret was not the Triangle Offense, though that helped. It was not the talent of his rosters, though Jordan, Pippen, Shaq, and Kobe were extraordinary. His secret was a philosophy of human beings — how to get the most out of competitive athletes operating under enormous pressure.
+
+Mindfulness and presence: Jackson studied Zen Buddhism, Native American philosophy, and sports psychology before he coached a single NBA game. He introduced mindfulness meditation to the Chicago Bulls in the early 1990s — elite athletes meditating before games was unheard of and considered bizarre at the time. Jackson believed that players who were fully present — not thinking about the last missed shot, not worrying about the upcoming press conference — performed better in high-pressure moments.
+
+The practice: Before practice and games, Jackson had players sit in silence for 5-10 minutes. Eyes closed. Focus on breathing. When thoughts arose, acknowledge them and return to breath. The goal was not emptiness — it was presence. Players who mastered this practice reported that the game "slowed down" for them in crunch time, that decisions came more clearly, that panic was replaced by clarity.
+
+The scientific backing: What Jackson intuited in the 1980s-90s has since been validated extensively by sports psychology research. The ability to focus attention on the present moment — to not be hijacked by anxiety about outcomes or regret about past mistakes — is one of the most powerful predictors of performance under pressure in any competitive domain.
+
+Why it matters for you: You will miss shots in games. You will turn the ball over. You will get beaten off the dribble. The question is not whether these things happen — they happen to every player including Jordan and Kobe. The question is how fast you recover. The "next-play mentality" — the ability to immediately reset after a mistake — is a trainable skill that Phil Jackson made central to his coaching philosophy.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=phil+jackson+coaching+philosophy+zen+master+basketball',
+        videoTitle: 'Phil Jackson — Coaching Philosophy and Leadership',
       },
       {
-        id: 'pj-d2', name: 'Present-Moment Play', duration: '8 min',
-        instructions: 'Play 1-on-1 for 8 minutes. Rule: after every possession — make or miss — you must reset completely. Stand still for 3 seconds, breathe, then play the next possession as if it is the first. No carrying a mistake into the next play. This is mindfulness applied to basketball.',
-        type: 'ball-handling',
-      },
-      {
-        id: 'pj-d3', name: 'Role Player Appreciation', duration: '5 min',
-        instructions: 'Practice one skill specifically designed to help your TEAMMATE, not yourself: (1) Set 20 screens that get your teammate open, (2) Make 20 outlet passes that start the fast break for someone else, (3) Take 20 charges. These are Phil Jackson "role" stats — they win championships without ever showing on a box score.',
-        type: 'footwork',
+        title: 'Trust, Ego, and Championship Culture',
+        content: `Jackson's most remarkable coaching achievement was not winning championships. It was winning them with rosters that included Michael Jordan, Kobe Bryant, Dennis Rodman, and Shaquille O'Neal — four of the largest personalities and egos in sports history. Managing these personalities was, in many ways, a harder challenge than any offensive or defensive scheme.
+
+Trust in every player: Jackson ran the Triangle Offense in part because it required EVERY player to be trusted with the ball in important moments. A system where only Michael Jordan or only Kobe Bryant made decisions makes those teams easier to defend — shut down one player, shut down the team. A system where John Paxson, Steve Kerr, and Robert Horry could hit game-winning shots because the system TRUSTED them with those shots — that team is impossible to shut down.
+
+Handling superstar egos: Jackson never publicly criticized Jordan or Kobe. He held them accountable in private, consistently and without exceptions. When Jordan complained about not getting enough touches in the Triangle, Jackson met with him privately and showed him the statistics — Jordan was more efficient within the Triangle than out of it. The evidence, not the argument, changed Jordan's mind.
+
+The sacred hoop — team above individual: Jackson's most famous book is "Sacred Hoops." His central message: a basketball team at its best is not five individuals cooperating — it is a single organism with five separate minds and one unified purpose. The team's achievement is the individual's achievement. Dennis Rodman was worth more as the world's most committed rebounder and defender within a team than as an individual scorer chasing his own highlights. Jordan was worth more as the centerpiece of a team system than as an individual scorer playing isolation basketball.
+
+Your takeaway: Phil Jackson teaches that competitive excellence and personal unselfishness are not opposites. The most competitive players, in the most competitive situations, win by being the best teammates. Sacrifice for the team is not a compromise of your competitive drive — it IS your competitive drive, properly directed.`,
       },
     ],
     quiz: {
-      question: 'What was the central belief behind Phil Jackson\'s "Sacred Hoop" coaching philosophy?',
+      question: 'What was Phil Jackson\'s central belief in "Sacred Hoops"?',
       options: [
         { text: 'The best player should control every possession', correct: false },
         { text: 'Only defense and rebounding win championships', correct: false },
-        { text: 'When players sacrifice individual glory for team success, championship basketball becomes possible', correct: true },
+        { text: 'A team at its best is a single organism — team achievement is individual achievement', correct: true },
         { text: 'Running set plays eliminates individual decision-making errors', correct: false },
       ],
     },
@@ -506,53 +388,40 @@ The sacred hoop: Jackson's most famous book is "Sacred Hoops." His central belie
     emoji: '🏆',
     category: 'Coaching Legends',
     track: 4,
-    explanation: `Gregg Popovich has won 5 NBA championships with the San Antonio Spurs and is widely regarded as the greatest coach in NBA history. His philosophy is simple, consistent, and brutally demanding.
-
-The Spurs system — ball movement above all: The Spurs under Popovich became famous for moving the ball until they created the best possible shot. Their offense averaged 300+ passes per game — double the league average. The principle: "Good teams take good shots. Great teams take great shots." A good shot is passed up for a great shot every time.
-
-Culture over talent: Popovich consistently outperformed teams with more talented rosters. His method: establish a culture of accountability, unselfishness, and professionalism that makes every player perform better than they would elsewhere. Tony Parker, Manu Ginobili, and Tim Duncan were very good when they arrived — they became all-time greats in Popovich's system.
-
-Demanding honesty: Popovich is famous for his brutal honesty with players. He does not coddle. He holds everyone — including Tim Duncan, his franchise player — to the same standard. When Duncan made a mistake, Popovich called it out in front of the team. This equal accountability created a culture where nobody was above the system.
-
-The quiet superstar: Popovich actively sought players who did not need the spotlight. Tim Duncan, one of the 15 greatest players in NBA history, was famously quiet and team-first. Popovich believed this personality type was the most valuable — extreme talent combined with extreme humility and coachability.
-
-International players and global basketball: Popovich was decades ahead of the league in valuing international players. Tony Parker (French), Manu Ginobili (Argentine), and dozens of others showed that basketball excellence is global — style, creativity, and fundamentals from around the world.`,
-    coachingPoints: [
-      '"The best shot" versus "a good shot" — Popovich\'s teams were always willing to take one more pass for the better look',
-      'Accountability without ego — Pop holds everyone to the same standard. Stars do not get free passes',
-      'Process over outcome — Popovich cares about how you play, not just whether you win. Right execution leads to winning',
-      'Popovich said: "Our system demands that you care about the man next to you." Culture IS the system',
-    ],
-    commonMistakes: [
-      'Thinking the Spurs won on talent — they were repeatedly outtalented and won anyway, because of culture',
-      'Confusing toughness with cruelty — Popovich is demanding because he believes every player can improve',
-      'Ignoring the Spurs\' ball movement — they are the template for how unselfish offense wins championships',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=gregg+popovich+coaching+philosophy+interview',
-    videoTitle: 'Gregg Popovich — Greatest Coach Interview',
-    highlightAssignment: 'Watch "San Antonio Spurs ball movement" highlights and count the passes per possession. Try to find a possession where the Spurs took the first open shot they saw. You will struggle to find one. That is what "great shot over good shot" looks like.',
-    drills: [
+    tagline: 'Culture is the system.',
+    chapters: [
       {
-        id: 'pop-d1', name: 'Great Shot Standard', duration: '6 min',
-        instructions: 'Shoot 30 shots — but for each one, you must assess: "Is this a GREAT shot or just a good shot?" If it is just good, pass it up (toss it to a simulated teammate) and find a better one. You are building the judgment to distinguish between acceptable and optimal. Popovich\'s players develop this judgment automatically.',
-        type: 'shooting',
+        title: 'The Spurs System and Ball Movement',
+        content: `Gregg Popovich has coached the San Antonio Spurs to 5 NBA championships and is widely considered the greatest coach in NBA history. Unlike Phil Jackson's mystical Zen approach, Popovich's coaching philosophy is blunt, honest, and relentlessly practical. His results speak louder than any philosophy.
+
+Ball movement as a moral statement: The Spurs under Popovich were famous for averaging 300+ passes per game — roughly double the league average. This was not a tactical choice alone. It was a values statement. Popovich believes that unselfishness — finding the better shot rather than taking the good one — is both the right way to play basketball and the right way to compete. The principle: "Take what the defense gives you, and when the defense gives you a good shot, take one more pass for the great shot."
+
+Building culture over talent: Popovich consistently outperformed teams with more talented rosters. In 2014, the Spurs dismantled the Miami Heat — LeBron James, Dwyane Wade, and Chris Bosh — in a Finals widely considered the most beautiful offensive performance in NBA history. The Spurs won not because they were more talented. They won because 15 players executing a system with perfect unselfishness beat three stars operating as individuals.
+
+The Spurs way — accountability without excuses: Popovich holds every player, including Tim Duncan and Tony Parker, to the exact same standard. When Duncan committed a foul he should not have committed, Popovich called it out in the film session, in front of the team. Equal accountability creates a culture where nobody — not the franchise player, not the rookie — gets a free pass. This environment, paradoxically, creates deep loyalty. Players trust a coach who is consistently fair.
+
+Why international players thrived: Popovich was decades ahead of the league in recognizing and developing international talent. Tony Parker (French), Manu Ginobili (Argentine), and dozens of others were not chosen for their athleticism — they were chosen for their basketball IQ, their unselfishness, and their skill. Popovich believed that players who had been taught the fundamentals of the game in different basketball cultures often had better basketball minds than highly athletic American players who had been told their talent would carry them.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=gregg+popovich+coaching+philosophy+leadership+interview',
+        videoTitle: 'Gregg Popovich — Coaching Philosophy and Culture',
       },
       {
-        id: 'pop-d2', name: 'Accountability Review', duration: '5 min',
-        instructions: 'After every drill in today\'s session, honestly rate your performance: 1 (below standard), 2 (met standard), 3 (exceeded standard). Write it down. This self-accountability — being honest about your performance without making excuses — is the mental habit Popovich builds in every Spur.',
-        type: 'stretch',
-      },
-      {
-        id: 'pop-d3', name: 'The Spurs Passing Circuit', duration: '8 min',
-        instructions: '3 players, 5 cones in spacing positions. Pass the ball for 8 minutes straight. Rules: no dribbling, move after every pass, every third pass must be a skip pass (cross-court). Count total passes made. The Spurs average 300+ passes per game. This circuit builds the habit.',
-        type: 'ball-handling',
+        title: 'Lessons from the Spurs for Every Player',
+        content: `The San Antonio Spurs won 5 championships over 15 years with completely different rosters. The only constant was Popovich and the culture he created. This longevity — maintaining excellence through decades and personnel changes — is the most remarkable achievement in modern NBA history.
+
+Process over outcome: Popovich cares how you play, not just whether you win. A team that plays correctly and loses teaches him more — and teaches the players more — than a team that wins sloppily. He believes that if the process is right (the right decisions, the right execution, the right effort), the outcomes take care of themselves. Players who are obsessed only with winning tend to take shortcuts; players who are obsessed with getting it right develop.
+
+Honest communication: Popovich is famous for his blunt honesty. In his press conferences, with players, with the media — he says exactly what he thinks without softening it for comfort. Players who thrive in his system appreciate that there is no ambiguity: he tells you directly what you did wrong and what you need to do better. Players who need constant encouragement and gentle feedback struggle. You choose which kind of player you want to be.
+
+"Our team needs you to do THIS": Popovich's consistent message to every player — from Duncan to the 15th man — is specific and role-defining: "Our team needs you to do this specific thing. If you do this thing at the highest level, we win. That is your championship contribution." This specificity removes the ambiguity and excuse of "not knowing my role." Every Spur knows exactly what is expected, exactly why it matters, and exactly how it contributes to winning.
+
+Your standard: Popovich's teams maintain the same standard in November as in Game 7 of the Finals. They execute the same way in the fourth quarter of a blowout loss as in a one-point game. The standard does not change with the situation. Build your own standard — in practice, in games, in losses — and hold it regardless of the moment. That consistency over a season is what separates good players from championship-caliber players.`,
       },
     ],
     quiz: {
       question: 'What principle separated Popovich\'s Spurs offense from other teams?',
       options: [
         { text: 'They always ran the same play for Tim Duncan', correct: false },
-        { text: 'They passed up good shots to take great shots — consistently taking one more pass', correct: true },
+        { text: 'They passed up good shots to take great shots — one more pass every time', correct: true },
         { text: 'They ran the fastest pace in the league', correct: false },
         { text: 'They shot more 3-pointers than any other team', correct: false },
       ],
@@ -568,48 +437,33 @@ International players and global basketball: Popovich was decades ahead of the l
     emoji: '📅',
     category: 'Basketball History',
     track: 5,
-    explanation: `Basketball has evolved dramatically across six distinct eras. Understanding this history makes you a more complete student of the game — and helps you understand why today's game looks the way it does.
-
-Era 1 — The Original Game (1946-1960s): Centers dominated. Bigger was better. George Mikan, Wilt Chamberlain, and Bill Russell defined basketball as a big-man game. The 3-point line did not exist. The game was slower, more physical, and built around the post.
-
-Era 2 — The Showtime and Star Era (1970s-1980s): Magic Johnson and Larry Bird revolutionized basketball by adding playmaking, passing, and team concepts. Meanwhile, Julius Erving (Dr. J) introduced aerial athleticism that nobody had seen before. Michael Jordan emerged as the transition to the next era.
-
-Era 3 — The Jordan Era (1984-1998): Individual excellence at its peak. Michael Jordan redefined what a basketball player could do — athleticism, skill, competitiveness, and will combined in one person. Defense was more physical; players were more individual; the mid-range jumper was the premier weapon.
-
-Era 4 — The Physicality Era (1990s): The "Bad Boy" Pistons and the "Jordan Rules" made basketball an intensely physical game. Hand-checking (defenders touching ball handlers) was legal, making penetration harder. Big, physical players dominated. Shaquille O'Neal was the most dominant force in the game.
-
-Era 5 — Rule Changes and Globalization (2000s): In 2004, the NBA eliminated hand-checking and implemented new rules protecting offensive players. This opened the lane and created space for skill players. International stars — Steve Nash, Dirk Nowitzki, Manu Ginobili — showed the world's talent was equal to America's.
-
-Era 6 — The Analytics and Spacing Revolution (2010s-present): The 3-point revolution. Stephen Curry redefined what was a "good shot" and where players could score from. Analytics proved that corner 3-pointers and layups were the most efficient shots in basketball. The mid-range jumper nearly disappeared from elite play. Speed, shooting, and spacing dominate everything.`,
-    coachingPoints: [
-      'Every era produced different "best players" — the game\'s rules and style shape which skills matter most',
-      'The players who dominated in every era were those who could adapt — studying all eras makes you more adaptable',
-      'The 2004 rule changes directly created the NBA you watch today — rules drive style, style drives what you practice',
-      'International players proved that basketball intelligence and fundamentals can match any level of athleticism',
-    ],
-    commonMistakes: [
-      'Thinking the NBA has always looked the way it does today — the 3-point revolution is less than 15 years old',
-      'Comparing players across eras directly — rules, pace, and available information were completely different',
-      'Ignoring the pre-Jordan era — the fundamentals of the game — passing, spacing, cutting — were taught better then',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=NBA+history+evolution+basketball+eras',
-    videoTitle: 'The Evolution of NBA Basketball — All Eras',
-    highlightAssignment: 'Watch one game highlight from each era: 1960s (Wilt Chamberlain), 1980s (Magic Johnson or Larry Bird), 1990s (Jordan), and 2020s (any current player). Note 3 specific differences in how the game is played. You are watching 60 years of evolution in 30 minutes.',
-    drills: [
+    tagline: 'Understand the past to master the present',
+    chapters: [
       {
-        id: 'ne-d1', name: 'Era Shooting Challenge', duration: '8 min',
-        instructions: 'Shoot like each era: (1) Post-up and short jumper (1960s), (2) Mid-range pull-up from elbow (Jordan era), (3) 3-pointer from the wing and corner (modern era). 10 shots from each spot. Which era\'s shot is your strongest? Where do you need work?',
-        type: 'shooting',
+        title: 'From Centers to Guards — The First 50 Years',
+        content: `Basketball has transformed more dramatically in its 130-year history than any other major sport. Understanding this transformation explains why the game looks the way it does today — and gives you a framework for understanding how it might change again in your lifetime.
+
+The Original Game (1891 — 1950s): James Naismith invented basketball in 1891 with 13 rules, two peach baskets, and a soccer ball. The early professional game in the 1940s-50s was dominated entirely by big men. George Mikan — 6'10", dominant in the post — was so individually superior that the NBA widened the lane from 6 to 12 feet specifically to limit his dominance. This would happen again with Wilt Chamberlain. The 3-point line did not exist. The game was slow, physical, and built around one player doing damage near the basket.
+
+The Showtime Era (1970s-80s): Magic Johnson and Larry Bird revolutionized basketball not with athleticism but with basketball intelligence and team play. Magic — 6'9" and a point guard — combined size with court vision that had never been seen. Bird — white, slow by athletic standards — made every teammate around him better with passing and positioning. They took basketball from a big-man game to a team sport. Julius Erving (Dr. J) added aerial athleticism and creativity that changed what players attempted. Michael Jordan emerged as the transition to the next era — combining Bird's competitiveness, Magic's court awareness, and unprecedented individual athleticism.
+
+The Physical Era (1990s): The Bad Boy Pistons under Chuck Daly made contact the defensive standard. Hand-checking — defenders placing a hand on the ball handler's hip to control their movement — was legal and universal. The physical style made penetration harder, rewarded bigger, stronger guards, and made Shaquille O'Neal almost unstoppable inside. Jordan won in this era because he was strong enough to survive the contact and skilled enough to finish through it.
+
+The Opening (2004 — present): Rule changes in 2004 eliminated hand-checking and introduced new offensive protection rules. Overnight, the lane opened. Quick, skilled guards who had been physically manhandled could now showcase their skills. Nash, Gilbert Arenas, Dwyane Wade — players who might have been dominated in the physical era — flourished. International players who had been taught skill over physicality proved to be perfectly suited for the new rules.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=NBA+history+evolution+basketball+eras+documentary',
+        videoTitle: 'The Evolution of NBA Basketball — All Eras',
       },
       {
-        id: 'ne-d2', name: 'Spacing vs. Physical Play', duration: '5 min',
-        instructions: 'Play 1-on-1 first with "hand-checking" allowed (simulated — defender can put hand on your hip). Note how it affects your drive. Then play without any contact. Note the difference. This is what the 2004 rule change felt like to players who adapted versus those who could not.',
-        type: 'footwork',
-      },
-      {
-        id: 'ne-d3', name: 'Your Best Shot in Today\'s NBA', duration: '5 min',
-        instructions: 'The modern NBA rewards corner 3s and layups above all. Shoot 10 corner 3s from each corner. Then 10 straight-line drives to layups from each wing. Track your percentages. These are the two highest-value shots in the modern game — they should be your best shots.',
-        type: 'shooting',
+        title: 'The Modern Revolution and What It Means for You',
+        content: `The period from 2010 to today represents the most dramatic change in basketball strategy since the game was invented. Understanding the analytics revolution and the 3-point evolution explains everything about how the modern game is played and what skills you should prioritize developing.
+
+The analytics revolution (2010s): Teams began hiring statisticians and data scientists to analyze which actions produced the most points per possession. The findings were surprising and, for some traditionalists, unwelcome: the most efficient shots in basketball are corner 3-pointers and layups. The least efficient shots are mid-range pull-up jumpers between 16-22 feet. This statistical reality has driven every major strategic change in the modern game.
+
+The Stephen Curry effect: Curry proved that a player with historically elite shooting could extend the value of 3-point shooting beyond the corner — that a 40% shooter from 27 feet generates more expected points than a 47% shooter from 22 feet. His play forced every defense in the league to guard the perimeter 5+ feet further from the basket than before, opening driving lanes for everyone. One player changed the geometry of basketball defense for the entire sport.
+
+Pace and space: The combination of (1) faster pace (pushing before defenses set) and (2) spread spacing (shooters in all five positions) creates the most efficient offensive conditions in basketball history. Teams score more points per 100 possessions today than at any point in NBA history. The game has become more skilled, more open, and faster.
+
+What this means for your development: At 8 years old, your investment priorities should reflect where the game is and where it is going. Corner 3-pointers and straight-line drives to layups are the two highest-value shot types at every level. Developing shooting range and 3-point accuracy is a long-term investment that pays off enormously as you grow. Understanding the "why" behind these priorities helps you practice with purpose rather than just following instructions.`,
       },
     ],
     quiz: {
@@ -630,46 +484,33 @@ Era 6 — The Analytics and Spacing Revolution (2010s-present): The 3-point revo
     emoji: '📊',
     category: 'Basketball History',
     track: 5,
-    explanation: `In 2011, Daryl Morey — GM of the Houston Rockets — changed basketball forever by applying data science to basketball decisions. The result: the analytics revolution that reshaped every team, every offense, and every player's shot selection in the modern NBA.
-
-The key discovery: Expected value per shot. Analytics revealed that the three best shots in basketball — ranked by points per attempt — are: (1) Corner 3-pointers: worth 1.5 expected points per attempt, (2) Layups and dunks: worth 1.3-1.6 expected points, (3) Any shot other than these: significantly less efficient.
-
-The death of the mid-range: The mid-range jumper — 12-20 feet from the basket — was the signature shot of the Jordan era. Analytics revealed it was the least efficient shot in basketball: worth about 0.8-0.9 expected points per attempt. Teams that relied on mid-range shooting were being outscored by teams taking corner 3s and layups. Within 10 years, mid-range shots declined by 40% across the league.
-
-Stephen Curry and the redefinition of range: Curry proved that the deep 3-pointer (25-28 feet from the basket) could be nearly as efficient as the corner 3 when the shooter was accurate enough. His 40%+ shooting from 27+ feet redefined what "long range" meant and forced every defense in the league to change their positioning.
-
-The analytics-resistant players: Some elite players — Kobe Bryant, LeBron James — refused to give up the mid-range entirely and remained elite because their overall skill level was exceptional. Analytics does not replace skill — it optimizes shot selection for players who can make multiple shot types.
-
-What this means for Thomas: At 8 years old, the best investment is perfect fundamentals — especially the corner 3, the floater, and the straight-line drive to the basket. These are the three shots that analytics says will be most valuable throughout your career at every level.`,
-    coachingPoints: [
-      'Corner 3s and layups are the two most valuable shot types at every level — they should be your most-practiced shots',
-      'Analytics gives you information — your skill development determines how you use that information',
-      'Understanding "expected value" helps you choose which shots to work on in practice most intensively',
-      'The Rockets\' "no mid-range" philosophy was an extreme — most teams now minimize mid-range, not eliminate it',
-    ],
-    commonMistakes: [
-      'Thinking analytics means robots play basketball — analytics tells you WHAT, players and coaches decide HOW',
-      'Abandoning the mid-range entirely — some situations (clock running out, specific defender) make it the right call',
-      'Using analytics to avoid hard work — knowing the right shots to take does not shoot them for you',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=basketball+analytics+explained+3+point+revolution',
-    videoTitle: 'The 3-Point Revolution and Analytics in Basketball',
-    highlightAssignment: 'Find your own shot chart: for one week, track every shot you take in practice. Mark where it was taken, whether it went in, and count the total. Calculate your percentage from: corner 3s, wing 3s, mid-range, and layups/close shots. Where are you most efficient? Where do you need work?',
-    drills: [
+    tagline: 'Numbers changed everything',
+    chapters: [
       {
-        id: 'ar-d1', name: 'Corner 3 Volume Training', duration: '8 min',
-        instructions: 'Shoot ONLY corner 3-pointers for 8 minutes — left corner and right corner, alternating. Track total attempts and makes. Calculate your percentage. The corner 3 is the single most valuable shot in analytics-era basketball. Your goal: 35%+ from each corner. This takes hundreds of sessions.',
-        type: 'shooting',
+        title: 'How Data Transformed Basketball Strategy',
+        content: `In the early 2010s, teams began applying data science to basketball at an unprecedented scale. The Houston Rockets under GM Daryl Morey led this movement, using expected value calculations to determine which shots created the most points per attempt. The conclusions reshaped basketball strategy everywhere from the NBA to youth leagues.
+
+Expected value per shot: Every shot type in basketball has an expected value — the average points it produces per attempt based on shooting percentages. The analysis: Corner 3-pointers (average 38% shooting × 3 points = 1.14 expected points per attempt). Layups and dunks (55-65% × 2 = 1.1-1.3 expected points). Mid-range pull-up jumpers (40% × 2 = 0.8 expected points). The mid-range is significantly less efficient than either the 3-pointer or the layup.
+
+The death of the mid-range: For the Jordan generation, the mid-range pull-up was the premier offensive weapon. Jordan's 16-foot baseline fadeaway. Kobe's step-back from the elbow. These were signature shots of the greatest scorers ever. Analytics showed they were also the least efficient shots those players attempted. Teams that stopped taking mid-range shots and replaced them with corner 3s scored more points — even when the players were shooting slightly worse percentages from 3.
+
+The Rockets' extreme application: Under Morey, the Rockets applied this logic to its most extreme conclusion: they essentially eliminated the mid-range entirely. James Harden went entire seasons shooting zero intentional mid-range shots. He took 3-pointers or drove to the basket. The strategy worked — Houston became one of the most efficient offensive teams in NBA history. They also demonstrated that the logic has limits: elite execution of "worse shots" can outperform mediocre execution of "better shots."
+
+The broader lesson: Analytics does not replace skill. It informs how skill should be prioritized and applied. A player who is mediocre at corner 3s does not benefit from taking more of them. But a player who develops elite shooting from the corner and elite finishing at the basket — the two highest-value skills in the modern game — maximizes the return on their developmental investment.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=basketball+analytics+revolution+3+point+explained',
+        videoTitle: 'The 3-Point Revolution and Analytics in Basketball',
       },
       {
-        id: 'ar-d2', name: 'Layup Percentage Tracking', duration: '5 min',
-        instructions: 'Shoot 20 right-hand layups and 20 left-hand layups. Track misses. Your target: 95%+ on both sides. NBA players miss 5% of layups — elite high school players miss 15-20%. The gap between 80% and 95% on layups is a significant competitive advantage.',
-        type: 'shooting',
-      },
-      {
-        id: 'ar-d3', name: 'Shot Value Assessment', duration: '5 min',
-        instructions: 'Take 10 shots from each of these spots: corner 3 (highest value), wing 3 (high value), 17-foot mid-range (lower value), layup (highest value). Calculate your percentage from each. Multiply percentage by point value (3, 3, 2, 2). Which spot creates the most expected points for you? That is your go-to shot.',
-        type: 'shooting',
+        title: 'What Analytics Means for Young Players',
+        content: `The analytics revolution changes how you should think about skill development. You are growing up in a data-informed basketball world. Understanding the data helps you make smarter choices about where to invest your practice time.
+
+The skills that analytics validates: Corner 3-point shooting. Straight-line drives finishing at the basket (layups and floaters). Free throw shooting. These three areas represent the highest expected-value plays at every level. If you spend 60% of your shooting practice on these three areas, you are investing in the most valuable skills in the modern game.
+
+The skills analytics does not eliminate: Mid-range shooting still matters — in game situations where the clock is running down, where spacing prevents a 3, or where a mid-range pull-up is the best available option among bad options. The analytics argument is that mid-range should not be a primary offensive tool. It does not argue that mid-range should never be used. Elite players like Kawhi Leonard and Kevin Durant have shown that mid-range excellence, combined with 3-point range and finishing ability, creates a complete and devastating offensive game.
+
+Shot selection as a habit: The goal of understanding analytics is not to become a robot who only takes "approved" shots. It is to develop good shot selection as an automatic habit — to recognize in real time when a shot is a good value versus a low value, and to consistently choose the higher-value option. This judgment, built through years of intentional practice, becomes one of your most important basketball skills.
+
+Your development priority list: (1) Layup finishing with both hands (highest value, most fundamental). (2) Corner 3-point shooting (highest value among 3s). (3) Free throw shooting (uncontested, always available). (4) Wing 3-point shooting (high value). (5) Floater and pull-up from free throw line (addresses the gap between the rim and the 3). (6) Mid-range as a complement, not a primary weapon. Build in this order. Be patient.`,
       },
     ],
     quiz: {
@@ -686,50 +527,39 @@ What this means for Thomas: At 8 years old, the best investment is perfect funda
 
   {
     id: 'goat-debate',
-    title: 'The GOAT Debate — What Makes the Greatest?',
+    title: 'The GOAT Debate',
     emoji: '🐐',
     category: 'Basketball History',
     track: 5,
-    explanation: `The Greatest Of All Time debate — Michael Jordan vs. LeBron James, with others in the conversation — is one of the most enduring arguments in sports. Understanding what it takes to even enter this conversation tells you everything about what basketball greatness actually means.
-
-Michael Jordan's case: 6 championships, 6 Finals MVPs (never lost in the Finals), 5 regular-season MVPs, Defensive Player of the Year, 14 All-Star selections. Jordan never lost in the Finals. His argument is "perfection" — he won every time the biggest stage required him to win. Statistically, his scoring average (30.1 career), defensive ability, and clutch performance are unmatched.
-
-LeBron James's case: 4 championships across THREE different franchises (Cleveland, Miami, Los Angeles) — showing he could build a championship team anywhere. 4 Finals MVPs, 4 regular-season MVPs, the all-time leading scorer. LeBron is a more complete basketball player in terms of statistics — he leads all players in points, assists, and games played simultaneously.
-
-Others in the conversation: Kareem Abdul-Jabbar (the all-time scoring leader before LeBron, 6 championships), Bill Russell (11 championships — the most in NBA history), Magic Johnson (5 championships, transformed the point guard position), Kobe Bryant (5 championships, closest in mentality and skill set to Jordan).
-
-What the debate actually reveals: There is no objective answer because greatness is measured by different values: Championships (Jordan, Russell), Longevity and consistency (LeBron, Kareem), Skill level at peak (Jordan, Kobe), Overall impact on the game (Magic, LeBron, Jordan), Excellence of teammates (varies widely).
-
-What this means for you: Every GOAT was obsessively competitive, dedicated to improvement, physically gifted AND skilled, and deeply studied the game. You cannot control which physical gifts you were born with. You can control the obsession, the study, and the skill development. That is what every GOAT controlled.`,
-    coachingPoints: [
-      'Every GOAT had a defining characteristic: Jordan\'s competitive will, LeBron\'s court vision, Kobe\'s work ethic',
-      'Find your own defining characteristic and develop it to the highest possible level',
-      'The debate will never be settled because greatness has no single definition — that is what makes it interesting',
-      'All GOAT candidates shared one trait: they made every teammate better while also being the best individual on the court',
-    ],
-    commonMistakes: [
-      'Thinking the GOAT debate has a factual answer — it is a values question, not a statistics question',
-      'Dismissing players from other eras without understanding the rule differences and available training',
-      'Using the GOAT debate as an excuse not to study your own game — studying greatness should inspire action',
-    ],
-    videoUrl: 'https://www.youtube.com/results?search_query=michael+jordan+vs+lebron+james+goat+debate',
-    videoTitle: 'The GOAT Debate — Jordan vs. LeBron',
-    highlightAssignment: 'Watch 5 minutes of Jordan highlights and 5 minutes of LeBron highlights back-to-back. For each player, write: (1) What skill do I want to steal? (2) What habit do I want to copy? Do not answer who is better — answer what you can learn from both.',
-    drills: [
+    tagline: 'What does greatness actually mean?',
+    chapters: [
       {
-        id: 'goat-d1', name: 'Jordan Drill — Competitive Standard', duration: '6 min',
-        instructions: 'Set a personal scoring challenge: make 15 consecutive mid-range jumpers before you can stop. Miss one, start over from zero. This drill simulates Jordan\'s personal competitive standard — he refused to leave the gym until he hit a certain number. Adjust the number to your current level.',
-        type: 'shooting',
+        title: 'Michael Jordan — The Case',
+        content: `The Greatest Of All Time debate is the most enduring argument in sports. It is also one of the most instructive — because analyzing what makes greatness reveals exactly what you should be building toward.
+
+Michael Jordan's case — the perfection argument: 6 championships. 6 Finals MVPs. He never lost in the Finals. 5 regular-season MVPs. 1 Defensive Player of the Year (while leading the league in scoring — an unprecedented combination). 14 All-Star selections. Career scoring average of 30.1 points per game — the highest in NBA history. Jordan's argument is built on an idea of perfection: he won every single time the biggest moment demanded it. Six championships, six perfect Finals series.
+
+What made Jordan statistically dominant: Jordan combined scoring efficiency (high points per shot attempt), defensive excellence (Defensive Player of the Year), and clutch performance (the best "clutch" stats of any player in the era). He was the best player in the world on both sides of the ball simultaneously — something almost no other player in history has achieved.
+
+The competitive will argument: Jordan is often cited as the most competitive player in NBA history. He turned everything into a competition — practice shooting games, card games, golf, conversations about who would win a footrace. This competitive obsession was not a personality quirk. It was a training tool. By competing at everything with maximum intensity, Jordan kept his competitive instincts sharp and automatic. When game situations arose that required maximum competitiveness, his body and mind already knew what maximum felt like.
+
+The mental fortitude argument: Jordan was cut from his high school varsity team as a sophomore. He was underdrafted (third pick overall, preceded by Hakeem Olajuwon and Sam Bowie). He lost in the first round of the playoffs multiple times before winning his first championship at age 28. Each obstacle became fuel. His ability to transform adversity into motivation rather than discouragement is a defining characteristic of his greatness.`,
+        videoUrl: 'https://www.youtube.com/results?search_query=michael+jordan+greatest+ever+documentary+highlights',
+        videoTitle: 'Michael Jordan — The Greatest of All Time Case',
       },
       {
-        id: 'goat-d2', name: 'LeBron Drill — Complete Game', duration: '6 min',
-        instructions: 'In 6 minutes, score in 6 different ways: layup (right), layup (left), pull-up jumper, corner 3, post-up move, and no-dribble catch-and-shoot. Then on defense: take a charge, block a shot (or contest), and force a turnover. LeBron\'s greatness is completeness — train completeness.',
-        type: 'footwork',
-      },
-      {
-        id: 'goat-d3', name: 'Your GOAT Trait', duration: '5 min',
-        instructions: 'Identify YOUR defining trait — the skill that will be your signature. Dedicate these 5 minutes entirely to that one skill. 5 minutes of perfect, focused reps on your best skill. Build what makes you uniquely excellent — not what makes you average at everything.',
-        type: 'shooting',
+        title: 'LeBron James and the Complete Player Argument',
+        content: `LeBron James represents a different argument for greatness — one built on longevity, completeness, and adaptability across different eras, different rosters, and different challenges.
+
+LeBron's case — the completeness argument: 4 championships across THREE different franchises (Cleveland, Miami, Los Angeles). 4 Finals MVPs. 4 regular-season MVPs. The all-time leading scorer, surpassing Kareem Abdul-Jabbar in 2023. Simultaneously leading active players in points, assists, and games played. LeBron's argument is that no player in NBA history has been as complete — scoring, playmaking, defending, rebounding — for as long as he has.
+
+The versatility argument: LeBron has played every position in the NBA during his career. He has guarded every position. He has led teams in scoring, rebounding, and assists — sometimes all three simultaneously. His basketball IQ is considered by many coaches and analysts to be the highest in NBA history — his ability to process the entire court in real time, see plays 3 possessions before they happen, and make the correct decision against any defensive alignment.
+
+The longevity argument: Jordan retired twice voluntarily and played 15 seasons. LeBron at 40 years old is still playing at an All-Star level — an unprecedented feat of physical maintenance, skill development, and competitive drive. Longevity at this level suggests complete mastery of the physical and mental demands of the game.
+
+Others in the conversation: Kareem Abdul-Jabbar held the all-time scoring record for 38 years and won 6 championships. Bill Russell won 11 championships in 13 seasons — a team-winning record that dwarfs everyone. Magic Johnson reinvented the point guard position. Larry Bird was the greatest competitor who was never physically elite. Each player represents a different dimension of greatness.
+
+The lesson: The GOAT debate has no correct answer because greatness is not a single dimension. Each player maximized different aspects of the game at the highest level. Your job is not to become Jordan or LeBron — it is to identify your OWN dimensions of potential greatness and develop them relentlessly. What is your defining skill? Your defining mentality? Build those with the same obsession that every GOAT brought to their version of excellence.`,
       },
     ],
     quiz: {
@@ -737,7 +567,7 @@ What this means for you: Every GOAT was obsessively competitive, dedicated to im
       options: [
         { text: 'They all played for the same team at some point', correct: false },
         { text: 'They all won exactly 6 championships', correct: false },
-        { text: 'They made every teammate better while also being the best individual on the court', correct: true },
+        { text: 'They made every teammate better while being the best individual on the court', correct: true },
         { text: 'They were all point guards', correct: false },
       ],
     },

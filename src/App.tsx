@@ -21,6 +21,7 @@ export default function App() {
     completeTrainingDay,
     recordDrillType,
     completeLesson,
+    completeChapter,
     addJournalEntry,
     completePregame,
     updateParentNotes,
@@ -62,7 +63,7 @@ export default function App() {
           <BasketballSchool
             progress={progress}
             onCompleteLesson={completeLesson}
-            onRecordDrill={recordDrillType}
+            onCompleteChapter={completeChapter}
             onAddXP={addXP}
           />
         )

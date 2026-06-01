@@ -30,19 +30,21 @@ export interface QuizOption {
   correct: boolean
 }
 
+export interface Chapter {
+  title: string
+  content: string
+  videoUrl?: string
+  videoTitle?: string
+}
+
 export interface Lesson {
   id: string
   title: string
   emoji: string
   category: string
   track: 1 | 2 | 3 | 4 | 5
-  explanation: string
-  coachingPoints: string[]
-  commonMistakes: string[]
-  videoUrl: string
-  videoTitle: string
-  highlightAssignment: string
-  drills: Drill[]
+  tagline: string
+  chapters: Chapter[]
   quiz: {
     question: string
     options: QuizOption[]
@@ -78,6 +80,7 @@ export interface GameProgress {
   completedDays: string[]
   unlockedBadges: string[]
   completedLessons: string[]
+  completedChapters: string[]
   drillCounts: Record<string, number>
   journalEntries: { date: string; text: string }[]
   pregameCompletions: number
