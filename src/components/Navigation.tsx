@@ -11,7 +11,7 @@ const NAV_ITEMS: NavItem[] = [
   { view: 'dashboard', label: 'Home', emoji: '🏠' },
   { view: 'training', label: 'Train', emoji: '🏀' },
   { view: 'school', label: 'School', emoji: '📚' },
-  { view: 'pregame', label: 'Pregame', emoji: '⚡' },
+  { view: 'filmroom', label: 'Film', emoji: '🎥' },
   { view: 'parent', label: 'Coach', emoji: '👁️' },
 ]
 

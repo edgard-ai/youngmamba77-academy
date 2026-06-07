@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import type { GameProgress } from '../types'
 import { getLevel } from '../data/badges'
 import { LESSONS } from '../data/lessons'
+import { FILM_MODULES } from '../data/filmRoom'
 
 interface Props {
   progress: GameProgress
@@ -150,6 +151,44 @@ export default function ParentDashboard({ progress, onUpdateNotes, onReset }: Pr
             </div>
           </div>
         )}
+
+        {/* Film Room Stats */}
+        <div className="bg-court-mid border border-purple-900/50 rounded-2xl p-4">
+          <p className="text-purple-400 text-xs uppercase tracking-wider mb-2">🎥 Film Room</p>
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-white font-bold">{progress.completedFilmModules.length}/{FILM_MODULES.length} modules complete</p>
+            <span className="text-gold text-sm font-bold">{progress.completedFilmModules.length * 50} XP</span>
+          </div>
+          <div className="w-full bg-gray-800 rounded-full h-1.5 mb-3">
+            <div
+              className="bg-gradient-to-r from-purple-500 to-gold rounded-full h-1.5 transition-all"
+              style={{ width: `${(progress.completedFilmModules.length / FILM_MODULES.length) * 100}%` }}
+            />
+          </div>
+          {progress.completedFilmModules.length > 0 && (
+            <div className="flex flex-wrap gap-1.5">
+              {FILM_MODULES.filter(m => progress.completedFilmModules.includes(m.id)).map(m => (
+                <span key={m.id} className="bg-purple-900/40 border border-purple-700/50 rounded-full px-2 py-0.5 text-purple-300 text-xs">
+                  {m.emoji} {m.title.split(' ').slice(0, 2).join(' ')}
+                </span>
+              ))}
+            </div>
+          )}
+          <div className="mt-3 flex gap-4 text-sm">
+            <div>
+              <p className="text-gray-400 text-xs">Watched</p>
+              <p className="text-white font-bold">{progress.watchedFilmModules.length} videos</p>
+            </div>
+            <div>
+              <p className="text-gray-400 text-xs">Reflections</p>
+              <p className="text-white font-bold">{Object.keys(progress.filmReflections).length} written</p>
+            </div>
+            <div>
+              <p className="text-gray-400 text-xs">Notes</p>
+              <p className="text-white font-bold">{Object.values(progress.filmNotes).filter(n => n.trim()).length} modules</p>
+            </div>
+          </div>
+        </div>
 
         {/* Journal Entries Count */}
         <div className="bg-court-mid border border-gray-800 rounded-2xl p-4">

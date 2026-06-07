@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import type { GameProgress } from '../types'
+import type { GameProgress, FilmReflection } from '../types'
 import { BADGES, getLevel } from '../data/badges'
 
 const STORAGE_KEY = 'youngmamba77_progress'
@@ -16,6 +16,11 @@ const DEFAULT_PROGRESS: GameProgress = {
   journalEntries: [],
   pregameCompletions: 0,
   parentNotes: '',
+  completedFilmModules: [],
+  filmNotes: {},
+  filmReflections: {},
+  filmQuizAnswers: {},
+  watchedFilmModules: [],
 }
 
 function loadProgress(): GameProgress {
@@ -56,6 +61,17 @@ function checkBadges(progress: GameProgress): { updated: GameProgress; newBadges
   check('capi-capi-captain', updated.pregameCompletions >= 5)
   check('school-scholar', updated.completedLessons.length >= 5)
   check('legend-77', updated.xp >= 1500)
+  // Film Room badges — one per module
+  check('mamba-mindset', updated.completedFilmModules.includes('mamba-mentality'))
+  check('basketball-historian', updated.completedFilmModules.includes('basketball-history'))
+  check('fundamentals-master', updated.completedFilmModules.includes('jordan-fundamentals'))
+  check('film-splash-shooter', updated.completedFilmModules.includes('curry-shooting'))
+  check('handle-hero', updated.completedFilmModules.includes('iverson-creativity'))
+  check('court-general', updated.completedFilmModules.includes('basketball-iq'))
+  check('basketball-strategist', updated.completedFilmModules.includes('xos-basketball'))
+  check('great-teammate', updated.completedFilmModules.includes('bulls-teamwork'))
+  check('film-analyst', updated.completedFilmModules.includes('film-study'))
+  check('young-captain', updated.completedFilmModules.includes('leadership'))
 
   return { updated, newBadges }
 }
@@ -147,6 +163,32 @@ export function useGameProgress() {
     update(p => ({ ...p, parentNotes: notes }))
   }, [update])
 
+  const markFilmWatched = useCallback((moduleId: string) => {
+    update(p => {
+      if (p.watchedFilmModules.includes(moduleId)) return p
+      return { ...p, watchedFilmModules: [...p.watchedFilmModules, moduleId] }
+    })
+  }, [update])
+
+  const saveFilmNotes = useCallback((moduleId: string, notes: string) => {
+    update(p => ({ ...p, filmNotes: { ...p.filmNotes, [moduleId]: notes } }))
+  }, [update])
+
+  const saveFilmReflection = useCallback((moduleId: string, reflection: FilmReflection) => {
+    update(p => ({ ...p, filmReflections: { ...p.filmReflections, [moduleId]: reflection } }))
+  }, [update])
+
+  const saveFilmQuizAnswer = useCallback((moduleId: string, answerIndex: number) => {
+    update(p => ({ ...p, filmQuizAnswers: { ...p.filmQuizAnswers, [moduleId]: answerIndex } }))
+  }, [update])
+
+  const completeFilmModule = useCallback((moduleId: string, xpReward: number) => {
+    update(p => {
+      if (p.completedFilmModules.includes(moduleId)) return p
+      return { ...p, completedFilmModules: [...p.completedFilmModules, moduleId], xp: p.xp + xpReward }
+    })
+  }, [update])
+
   const clearNewBadges = useCallback(() => setNewBadgeIds([]), [])
 
   const clearAll = useCallback(() => {
@@ -165,6 +207,11 @@ export function useGameProgress() {
     addJournalEntry,
     completePregame,
     updateParentNotes,
+    markFilmWatched,
+    saveFilmNotes,
+    saveFilmReflection,
+    saveFilmQuizAnswer,
+    completeFilmModule,
     newBadgeIds,
     clearNewBadges,
     clearAll,

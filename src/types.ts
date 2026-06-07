@@ -7,6 +7,7 @@ export type View =
   | 'pregame'
   | 'parent'
   | 'badges'
+  | 'filmroom'
 
 export interface Badge {
   id: string
@@ -73,6 +74,33 @@ export interface DailyTrainingDay {
   journalQuestion: string
 }
 
+export interface FilmReflection {
+  q1: string
+  q2: string
+  q3: string
+  q4: string
+}
+
+export interface FilmModuleData {
+  id: string
+  title: string
+  playerName?: string
+  emoji: string
+  badgeId: string
+  youtubeId: string
+  youtubeSearchUrl: string
+  summary: string
+  keyTakeaways: string[]
+  lessons: string[]
+  quiz: {
+    question: string
+    options: QuizOption[]
+    explanation: string
+  }
+  xpReward: number
+  recommendedIds: string[]
+}
+
 export interface GameProgress {
   xp: number
   streak: number
@@ -85,4 +113,9 @@ export interface GameProgress {
   journalEntries: { date: string; text: string }[]
   pregameCompletions: number
   parentNotes: string
+  completedFilmModules: string[]
+  filmNotes: Record<string, string>
+  filmReflections: Record<string, FilmReflection>
+  filmQuizAnswers: Record<string, number>
+  watchedFilmModules: string[]
 }

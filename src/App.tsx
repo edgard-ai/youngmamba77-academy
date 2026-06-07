@@ -10,6 +10,7 @@ import BadgeCollection from './components/BadgeCollection'
 import TrainingPlans from './components/TrainingPlans'
 import PregameRoutine from './components/PregameRoutine'
 import ParentDashboard from './components/ParentDashboard'
+import FilmRoom from './components/FilmRoom'
 
 export default function App() {
   const [view, setView] = useState<View>('dashboard')
@@ -25,6 +26,11 @@ export default function App() {
     addJournalEntry,
     completePregame,
     updateParentNotes,
+    markFilmWatched,
+    saveFilmNotes,
+    saveFilmReflection,
+    saveFilmQuizAnswer,
+    completeFilmModule,
     newBadgeIds,
     clearNewBadges,
     clearAll,
@@ -76,6 +82,18 @@ export default function App() {
           <PregameRoutine
             onComplete={completePregame}
             completions={progress.pregameCompletions}
+          />
+        )
+      case 'filmroom':
+        return (
+          <FilmRoom
+            progress={progress}
+            onMarkWatched={markFilmWatched}
+            onSaveNotes={saveFilmNotes}
+            onSaveReflection={saveFilmReflection}
+            onSaveQuizAnswer={saveFilmQuizAnswer}
+            onCompleteModule={completeFilmModule}
+            onAddXP={addXP}
           />
         )
       case 'parent':
